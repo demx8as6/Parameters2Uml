@@ -1,307 +1,141 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmlns:architecture="http://www.eclipse.org/papyrus/infra/core/architecture"
-         xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
-         xmlns:math="http://exslt.org/math"
-         xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML"
-         xmlns:xmi="http://www.omg.org/spec/XMI/20131001"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xmlns:OpenInterfaceModel_Profile="http:///schemas/OpenInterfaceModel_Profile/_3NKYsD78EeiIisB6uOvKFA/8"
-         xmlns:OpenModel_Profile="http:///schemas/OpenModel_Profile/_S30WUD8HEeiIisB6uOvKFA/26"
-         xmi:version="20131001"
-         xsi:schemaLocation="http:///schemas/OpenInterfaceModel_Profile/_3NKYsD78EeiIisB6uOvKFA/8 UmlProfiles/OpenInterfaceModelProfile/OpenInterfaceModel_Profile.profile.uml#_3NPRMD78EeiIisB6uOvKFA http:///schemas/OpenModel_Profile/_S30WUD8HEeiIisB6uOvKFA/26 UmlProfiles/OpenModelProfile/OpenModel_Profile.profile.uml#_S32LgD8HEeiIisB6uOvKFA">
-   <uml:Model xmi:id="d1e1" name="PhotonicParameters">
-      <packageImport xmi:type="uml:PackageImport" xmi:id="d1e1pi">
-         <importedPackage xmi:type="uml:Model"
-                          href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
-      </packageImport>
-      <packagedElement xmi:type="uml:Package"
-                       xmi:id="d1e1_typedefinitions"
-                       name="TypeDefinitions"/>
-      <packagedElement xmi:type="uml:Package"
-                       xmi:id="d1e1_cbjectclasses"
-                       name="ObjectClasses">
-         <packagedElement xmi:type="uml:Class"
-                          xmi:id="A0E5724C-F79D-4C3E-9EAA-F26A26F972C6"
-                          name="SummaryProperties">
-            <ownedComment xmi:type="uml:Comment"
-                          xmi:id="A0E5724C-F79D-4C3E-9EAA-F26A26F972C6_comment"
-                          annotatedElement="A0E5724C-F79D-4C3E-9EAA-F26A26F972C6">
-               <body>The object class 'SummaryProperties' …</body>
-            </ownedComment>
-            <ownedAttribute xmi:type="uml:Property"
-                            xmi:id="49D23776-5149-4005-83DE-9BF383FC108E"
-                            name="applicationIdentifier"
-                            visibility="private"
-                            isReadOnly="true">
-               <ownedComment xmi:type="uml:Comment"
-                             xmi:id="49D23776-5149-4005-83DE-9BF383FC108E_comment"
-                             annotatedElement="49D23776-5149-4005-83DE-9BF383FC108E">
-                  <body>The identifier of the application</body>
-               </ownedComment>
-               <type xmi:type="uml:PrimitiveType"
-                     href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-               <defaultValue xmi:type="uml:StringExpression"
-                             xmi:id="49D23776-5149-4005-83DE-9BF383FC108E_default"
-                             symbol="not initialized"/>
-            </ownedAttribute>
-            <ownedAttribute xmi:type="uml:Property"
-                            xmi:id="C8CE395D-19C0-42B3-9D4E-7FAD7E0C474E"
-                            name="receiverApplicationType"
-                            visibility="private"
-                            isReadOnly="true">
-               <ownedComment xmi:type="uml:Comment"
-                             xmi:id="C8CE395D-19C0-42B3-9D4E-7FAD7E0C474E_comment"
-                             annotatedElement="C8CE395D-19C0-42B3-9D4E-7FAD7E0C474E">
-                  <body>The type of the application that runs at the receiver</body>
-               </ownedComment>
-               <type xmi:type="uml:PrimitiveType"
-                     href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-               <defaultValue xmi:type="uml:StringExpression"
-                             xmi:id="C8CE395D-19C0-42B3-9D4E-7FAD7E0C474E_default"
-                             symbol="not initialized"/>
-            </ownedAttribute>
-            <ownedAttribute xmi:type="uml:Property"
-                            xmi:id="E0DD7B6F-7420-422E-B32D-12C5BFBACA07"
-                            name="operationalState"
-                            visibility="private"
-                            isReadOnly="true">
-               <ownedComment xmi:type="uml:Comment"
-                             xmi:id="E0DD7B6F-7420-422E-B32D-12C5BFBACA07_comment"
-                             annotatedElement="E0DD7B6F-7420-422E-B32D-12C5BFBACA07">
-                  <body>The operational status of an entity</body>
-               </ownedComment>
-               <type xmi:type="uml:PrimitiveType"
-                     href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-               <defaultValue xmi:type="uml:StringExpression"
-                             xmi:id="E0DD7B6F-7420-422E-B32D-12C5BFBACA07_default"
-                             symbol="not initialized"/>
-            </ownedAttribute>
-         </packagedElement>
-         <packagedElement xmi:type="uml:Class"
-                          xmi:id="8EF409DF-1FED-4A48-B536-C5DC7A7880F7"
-                          name="SpectrumPropertiesChannel">
-            <ownedComment xmi:type="uml:Comment"
-                          xmi:id="8EF409DF-1FED-4A48-B536-C5DC7A7880F7_comment"
-                          annotatedElement="8EF409DF-1FED-4A48-B536-C5DC7A7880F7">
-               <body>The object class 'SpectrumPropertiesChannel' …</body>
-            </ownedComment>
-            <ownedAttribute xmi:type="uml:Property"
-                            xmi:id="5616426F-B684-434C-8AFB-5B727A0E7B5D"
-                            name="upperFrequency"
-                            visibility="private"
-                            isReadOnly="false">
-               <ownedComment xmi:type="uml:Comment"
-                             xmi:id="5616426F-B684-434C-8AFB-5B727A0E7B5D_comment"
-                             annotatedElement="5616426F-B684-434C-8AFB-5B727A0E7B5D">
-                  <body>The upper frequency of the channel spectrum</body>
-               </ownedComment>
-               <type xmi:type="uml:PrimitiveType"
-                     href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-               <defaultValue xmi:type="uml:StringExpression"
-                             xmi:id="5616426F-B684-434C-8AFB-5B727A0E7B5D_default"
-                             symbol="0"/>
-            </ownedAttribute>
-            <ownedAttribute xmi:type="uml:Property"
-                            xmi:id="596314F5-D7F3-440B-9B7F-E817D366C258"
-                            name="lowerFrequency"
-                            visibility="private"
-                            isReadOnly="false">
-               <ownedComment xmi:type="uml:Comment"
-                             xmi:id="596314F5-D7F3-440B-9B7F-E817D366C258_comment"
-                             annotatedElement="596314F5-D7F3-440B-9B7F-E817D366C258">
-                  <body>The lower frequency of the channel spectrum</body>
-               </ownedComment>
-               <type xmi:type="uml:PrimitiveType"
-                     href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-               <defaultValue xmi:type="uml:StringExpression"
-                             xmi:id="596314F5-D7F3-440B-9B7F-E817D366C258_default"
-                             symbol="0"/>
-            </ownedAttribute>
-            <ownedAttribute xmi:type="uml:Property"
-                            xmi:id="13200538-0BEB-46D1-BE7D-758007638F86"
-                            name="guardUpper"
-                            visibility="private"
-                            isReadOnly="false">
-               <ownedComment xmi:type="uml:Comment"
-                             xmi:id="13200538-0BEB-46D1-BE7D-758007638F86_comment"
-                             annotatedElement="13200538-0BEB-46D1-BE7D-758007638F86">
-                  <body>This parameter indicates the upper value of a guard interval, so the space between symbols. The guard interval  is used to eliminate inter-symbol and inter-carrier interference.
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:OpenInterfaceModel_Profile="http:///schemas/OpenInterfaceModel_Profile/_3NKYsD78EeiIisB6uOvKFA/8" xmlns:OpenModel_Profile="http:///schemas/OpenModel_Profile/_S30WUD8HEeiIisB6uOvKFA/26" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/OpenInterfaceModel_Profile/_3NKYsD78EeiIisB6uOvKFA/8 UmlProfiles/OpenInterfaceModelProfile/OpenInterfaceModel_Profile.profile.uml#_3NPRMD78EeiIisB6uOvKFA http:///schemas/OpenModel_Profile/_S30WUD8HEeiIisB6uOvKFA/26 UmlProfiles/OpenModelProfile/OpenModel_Profile.profile.uml#_S32LgD8HEeiIisB6uOvKFA">
+  <uml:Model xmi:id="d1e1" name="PhotonicParameters">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="d1e1pi">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="d1e1_typedefinitions" name="TypeDefinitions"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="d1e1_cbjectclasses" name="ObjectClasses">
+      <packagedElement xmi:type="uml:Class" xmi:id="A0E5724C-F79D-4C3E-9EAA-F26A26F972C6" name="SummaryProperties">
+        <ownedComment xmi:type="uml:Comment" xmi:id="A0E5724C-F79D-4C3E-9EAA-F26A26F972C6_comment" annotatedElement="A0E5724C-F79D-4C3E-9EAA-F26A26F972C6">
+          <body>The object class 'SummaryProperties' …</body>
+        </ownedComment>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="49D23776-5149-4005-83DE-9BF383FC108E" name="applicationIdentifier" visibility="private" isReadOnly="true">
+          <ownedComment xmi:type="uml:Comment" xmi:id="49D23776-5149-4005-83DE-9BF383FC108E_comment" annotatedElement="49D23776-5149-4005-83DE-9BF383FC108E">
+            <body>The identifier of the application</body>
+          </ownedComment>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:StringExpression" xmi:id="49D23776-5149-4005-83DE-9BF383FC108E_default" symbol="not initialized"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="C8CE395D-19C0-42B3-9D4E-7FAD7E0C474E" name="receiverApplicationType" visibility="private" isReadOnly="true">
+          <ownedComment xmi:type="uml:Comment" xmi:id="C8CE395D-19C0-42B3-9D4E-7FAD7E0C474E_comment" annotatedElement="C8CE395D-19C0-42B3-9D4E-7FAD7E0C474E">
+            <body>The type of the application that runs at the receiver</body>
+          </ownedComment>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:StringExpression" xmi:id="C8CE395D-19C0-42B3-9D4E-7FAD7E0C474E_default" symbol="not initialized"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="E0DD7B6F-7420-422E-B32D-12C5BFBACA07" name="operationalState" visibility="private" isReadOnly="true">
+          <ownedComment xmi:type="uml:Comment" xmi:id="E0DD7B6F-7420-422E-B32D-12C5BFBACA07_comment" annotatedElement="E0DD7B6F-7420-422E-B32D-12C5BFBACA07">
+            <body>The operational status of an entity</body>
+          </ownedComment>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:StringExpression" xmi:id="E0DD7B6F-7420-422E-B32D-12C5BFBACA07_default" symbol="not initialized"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="8EF409DF-1FED-4A48-B536-C5DC7A7880F7" name="SpectrumPropertiesChannel">
+        <ownedComment xmi:type="uml:Comment" xmi:id="8EF409DF-1FED-4A48-B536-C5DC7A7880F7_comment" annotatedElement="8EF409DF-1FED-4A48-B536-C5DC7A7880F7">
+          <body>The object class 'SpectrumPropertiesChannel' …</body>
+        </ownedComment>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="5616426F-B684-434C-8AFB-5B727A0E7B5D" name="upperFrequency" visibility="private">
+          <ownedComment xmi:type="uml:Comment" xmi:id="5616426F-B684-434C-8AFB-5B727A0E7B5D_comment" annotatedElement="5616426F-B684-434C-8AFB-5B727A0E7B5D">
+            <body>The upper frequency of the channel spectrum</body>
+          </ownedComment>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:StringExpression" xmi:id="5616426F-B684-434C-8AFB-5B727A0E7B5D_default" symbol="0"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="596314F5-D7F3-440B-9B7F-E817D366C258" name="lowerFrequency" visibility="private">
+          <ownedComment xmi:type="uml:Comment" xmi:id="596314F5-D7F3-440B-9B7F-E817D366C258_comment" annotatedElement="596314F5-D7F3-440B-9B7F-E817D366C258">
+            <body>The lower frequency of the channel spectrum</body>
+          </ownedComment>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:StringExpression" xmi:id="596314F5-D7F3-440B-9B7F-E817D366C258_default" symbol="0"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="13200538-0BEB-46D1-BE7D-758007638F86" name="guardUpper" visibility="private">
+          <ownedComment xmi:type="uml:Comment" xmi:id="13200538-0BEB-46D1-BE7D-758007638F86_comment" annotatedElement="13200538-0BEB-46D1-BE7D-758007638F86">
+            <body>This parameter indicates the upper value of a guard interval, so the space between symbols. The guard interval  is used to eliminate inter-symbol and inter-carrier interference.
 The beginning of each symbol is preceded by a guard interval. As long as the echoes fall within this interval, they will not affect the receiver's ability to safely decode the actual data, as data is only interpreted outside the guard interval.
 </body>
-               </ownedComment>
-               <type xmi:type="uml:PrimitiveType"
-                     href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-               <defaultValue xmi:type="uml:StringExpression"
-                             xmi:id="13200538-0BEB-46D1-BE7D-758007638F86_default"
-                             symbol="0"/>
-            </ownedAttribute>
-            <ownedAttribute xmi:type="uml:Property"
-                            xmi:id="4A1AAC85-E11C-4763-84FF-7FE4D899EFDB"
-                            name="guardLower"
-                            visibility="private"
-                            isReadOnly="false">
-               <ownedComment xmi:type="uml:Comment"
-                             xmi:id="4A1AAC85-E11C-4763-84FF-7FE4D899EFDB_comment"
-                             annotatedElement="4A1AAC85-E11C-4763-84FF-7FE4D899EFDB">
-                  <body>This parameter indicates the lower value of a guard interval.The guard interval  is used to eliminate inter-symbol and inter-carrier interference.
+          </ownedComment>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:StringExpression" xmi:id="13200538-0BEB-46D1-BE7D-758007638F86_default" symbol="0"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="4A1AAC85-E11C-4763-84FF-7FE4D899EFDB" name="guardLower" visibility="private">
+          <ownedComment xmi:type="uml:Comment" xmi:id="4A1AAC85-E11C-4763-84FF-7FE4D899EFDB_comment" annotatedElement="4A1AAC85-E11C-4763-84FF-7FE4D899EFDB">
+            <body>This parameter indicates the lower value of a guard interval.The guard interval  is used to eliminate inter-symbol and inter-carrier interference.
 The beginning of each symbol is preceded by a guard interval. As long as the echoes fall within this interval, they will not affect the receiver's ability to safely decode the actual data, as data is only interpreted outside the guard interval.</body>
-               </ownedComment>
-               <type xmi:type="uml:PrimitiveType"
-                     href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-               <defaultValue xmi:type="uml:StringExpression"
-                             xmi:id="4A1AAC85-E11C-4763-84FF-7FE4D899EFDB_default"
-                             symbol="0"/>
-            </ownedAttribute>
-         </packagedElement>
-         <packagedElement xmi:type="uml:Class"
-                          xmi:id="74D4D153-4E3D-4BB4-A7B5-1460CBD1DFA6"
-                          name="SpectrumPropertiesLaser">
-            <ownedComment xmi:type="uml:Comment"
-                          xmi:id="74D4D153-4E3D-4BB4-A7B5-1460CBD1DFA6_comment"
-                          annotatedElement="74D4D153-4E3D-4BB4-A7B5-1460CBD1DFA6">
-               <body>The object class 'SpectrumPropertiesLaser' …</body>
-            </ownedComment>
-            <ownedAttribute xmi:type="uml:Property"
-                            xmi:id="1284BFF3-E1AE-4B73-96F0-C16D6801AEB2"
-                            name="centralFrequency"
-                            visibility="private"
-                            isReadOnly="false">
-               <ownedComment xmi:type="uml:Comment"
-                             xmi:id="1284BFF3-E1AE-4B73-96F0-C16D6801AEB2_comment"
-                             annotatedElement="1284BFF3-E1AE-4B73-96F0-C16D6801AEB2">
-                  <body>The central frequency of the laser.
+          </ownedComment>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:StringExpression" xmi:id="4A1AAC85-E11C-4763-84FF-7FE4D899EFDB_default" symbol="0"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="74D4D153-4E3D-4BB4-A7B5-1460CBD1DFA6" name="SpectrumPropertiesLaser">
+        <ownedComment xmi:type="uml:Comment" xmi:id="74D4D153-4E3D-4BB4-A7B5-1460CBD1DFA6_comment" annotatedElement="74D4D153-4E3D-4BB4-A7B5-1460CBD1DFA6">
+          <body>The object class 'SpectrumPropertiesLaser' …</body>
+        </ownedComment>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="1284BFF3-E1AE-4B73-96F0-C16D6801AEB2" name="centralFrequency" visibility="private">
+          <ownedComment xmi:type="uml:Comment" xmi:id="1284BFF3-E1AE-4B73-96F0-C16D6801AEB2_comment" annotatedElement="1284BFF3-E1AE-4B73-96F0-C16D6801AEB2">
+            <body>The central frequency of the laser.
  It is the oscillation frequency of the corresponding electromagnetic wave
 </body>
-               </ownedComment>
-               <type xmi:type="uml:PrimitiveType"
-                     href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-               <defaultValue xmi:type="uml:StringExpression"
-                             xmi:id="1284BFF3-E1AE-4B73-96F0-C16D6801AEB2_default"
-                             symbol="0"/>
-            </ownedAttribute>
-            <ownedAttribute xmi:type="uml:Property"
-                            xmi:id="769C39C2-628B-4659-A606-2E44C53A66DA"
-                            name="channelWidth"
-                            visibility="private"
-                            isReadOnly="false">
-               <ownedComment xmi:type="uml:Comment"
-                             xmi:id="769C39C2-628B-4659-A606-2E44C53A66DA_comment"
-                             annotatedElement="769C39C2-628B-4659-A606-2E44C53A66DA">
-                  <body>This parameter specifies how much bandwidth the system is using within the available spectrum</body>
-               </ownedComment>
-               <type xmi:type="uml:PrimitiveType"
-                     href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-               <defaultValue xmi:type="uml:StringExpression"
-                             xmi:id="769C39C2-628B-4659-A606-2E44C53A66DA_default"
-                             symbol="0"/>
-            </ownedAttribute>
-         </packagedElement>
-         <packagedElement xmi:type="uml:Class"
-                          xmi:id="09899F35-84A0-42CD-A268-9C14267073A0"
-                          name="SpectrumPropertiesGrid">
-            <ownedComment xmi:type="uml:Comment"
-                          xmi:id="09899F35-84A0-42CD-A268-9C14267073A0_comment"
-                          annotatedElement="09899F35-84A0-42CD-A268-9C14267073A0">
-               <body>The object class 'SpectrumPropertiesGrid' …</body>
-            </ownedComment>
-            <ownedAttribute xmi:type="uml:Property"
-                            xmi:id="6082170D-42B1-4CB7-897E-852E7D34F5B5"
-                            name="gridType"
-                            visibility="private"
-                            isReadOnly="false">
-               <ownedComment xmi:type="uml:Comment"
-                             xmi:id="6082170D-42B1-4CB7-897E-852E7D34F5B5_comment"
-                             annotatedElement="6082170D-42B1-4CB7-897E-852E7D34F5B5">
-                  <body>The frequency grid type used for the DWDM applications according to ITU-T G694.1</body>
-               </ownedComment>
-               <type xmi:type="uml:PrimitiveType"
-                     href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-               <defaultValue xmi:type="uml:StringExpression"
-                             xmi:id="6082170D-42B1-4CB7-897E-852E7D34F5B5_default"
-                             symbol="dwdm-flexible"/>
-            </ownedAttribute>
-            <ownedAttribute xmi:type="uml:Property"
-                            xmi:id="55945A0D-E3E4-4D4E-B4EF-1AC9E3C6975C"
-                            name="adjustmentGranularity"
-                            visibility="private"
-                            isReadOnly="false">
-               <ownedComment xmi:type="uml:Comment"
-                             xmi:id="55945A0D-E3E4-4D4E-B4EF-1AC9E3C6975C_comment"
-                             annotatedElement="55945A0D-E3E4-4D4E-B4EF-1AC9E3C6975C">
-                  <body>This parameter specifies the nominal central frequency granularity</body>
-               </ownedComment>
-               <type xmi:type="uml:PrimitiveType"
-                     href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-               <defaultValue xmi:type="uml:StringExpression"
-                             xmi:id="55945A0D-E3E4-4D4E-B4EF-1AC9E3C6975C_default"
-                             symbol="0"/>
-            </ownedAttribute>
-            <ownedAttribute xmi:type="uml:Property"
-                            xmi:id="5B56AE7D-63C9-4B1D-B07E-5D5DB8CC494B"
-                            name="channelSpacing"
-                            visibility="private"
-                            isReadOnly="true">
-               <ownedComment xmi:type="uml:Comment"
-                             xmi:id="5B56AE7D-63C9-4B1D-B07E-5D5DB8CC494B_comment"
-                             annotatedElement="5B56AE7D-63C9-4B1D-B07E-5D5DB8CC494B">
-                  <body>Space between channels</body>
-               </ownedComment>
-               <type xmi:type="uml:PrimitiveType"
-                     href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-               <defaultValue xmi:type="uml:StringExpression"
-                             xmi:id="5B56AE7D-63C9-4B1D-B07E-5D5DB8CC494B_default"
-                             symbol=""/>
-            </ownedAttribute>
-            <ownedAttribute xmi:type="uml:Property"
-                            xmi:id="B405AF3B-4E82-44FD-B156-16632663E715"
-                            name="widthNumber"
-                            visibility="private"
-                            isReadOnly="false">
-               <ownedComment xmi:type="uml:Comment"
-                             xmi:id="B405AF3B-4E82-44FD-B156-16632663E715_comment"
-                             annotatedElement="B405AF3B-4E82-44FD-B156-16632663E715">
-                  <body>This parameter indicated the m which is a number that determines the slot width  according to ITU-T G694.1 </body>
-               </ownedComment>
-               <type xmi:type="uml:PrimitiveType"
-                     href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-               <defaultValue xmi:type="uml:StringExpression"
-                             xmi:id="B405AF3B-4E82-44FD-B156-16632663E715_default"
-                             symbol="0"/>
-            </ownedAttribute>
-            <ownedAttribute xmi:type="uml:Property"
-                            xmi:id="5D74135F-FBD2-491B-9977-34501636DC58"
-                            name="channelNumber"
-                            visibility="private"
-                            isReadOnly="false">
-               <ownedComment xmi:type="uml:Comment"
-                             xmi:id="5D74135F-FBD2-491B-9977-34501636DC58_comment"
-                             annotatedElement="5D74135F-FBD2-491B-9977-34501636DC58">
-                  <body>This parameter indicated the n which is a number that determines the nominal central frequency of thte slots  according to ITU-T G694.1 </body>
-               </ownedComment>
-               <type xmi:type="uml:PrimitiveType"
-                     href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-               <defaultValue xmi:type="uml:StringExpression"
-                             xmi:id="5D74135F-FBD2-491B-9977-34501636DC58_default"
-                             symbol="0"/>
-            </ownedAttribute>
-         </packagedElement>
-         <packagedElement xmi:type="uml:Class"
-                          xmi:id="63659834-EC42-4B67-BD01-B54C3E4EDC30"
-                          name="WaveShapeProperties">
-            <ownedComment xmi:type="uml:Comment"
-                          xmi:id="63659834-EC42-4B67-BD01-B54C3E4EDC30_comment"
-                          annotatedElement="63659834-EC42-4B67-BD01-B54C3E4EDC30">
-               <body>The object class 'WaveShapeProperties' …</body>
-            </ownedComment>
-            <ownedAttribute xmi:type="uml:Property"
-                            xmi:id="108AB039-B286-4ECD-B315-E78E34C472DE"
-                            name="eyeMask"
-                            visibility="private"
-                            isReadOnly="true">
-               <ownedComment xmi:type="uml:Comment"
-                             xmi:id="108AB039-B286-4ECD-B315-E78E34C472DE_comment"
-                             annotatedElement="108AB039-B286-4ECD-B315-E78E34C472DE">
-                  <body>The eye pattern used to estimate the signal distortion due to intersymbol interference and noise.
+          </ownedComment>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:StringExpression" xmi:id="1284BFF3-E1AE-4B73-96F0-C16D6801AEB2_default" symbol="0"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="769C39C2-628B-4659-A606-2E44C53A66DA" name="channelWidth" visibility="private">
+          <ownedComment xmi:type="uml:Comment" xmi:id="769C39C2-628B-4659-A606-2E44C53A66DA_comment" annotatedElement="769C39C2-628B-4659-A606-2E44C53A66DA">
+            <body>This parameter specifies how much bandwidth the system is using within the available spectrum</body>
+          </ownedComment>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:StringExpression" xmi:id="769C39C2-628B-4659-A606-2E44C53A66DA_default" symbol="0"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="09899F35-84A0-42CD-A268-9C14267073A0" name="SpectrumPropertiesGrid">
+        <ownedComment xmi:type="uml:Comment" xmi:id="09899F35-84A0-42CD-A268-9C14267073A0_comment" annotatedElement="09899F35-84A0-42CD-A268-9C14267073A0">
+          <body>The object class 'SpectrumPropertiesGrid' …</body>
+        </ownedComment>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="6082170D-42B1-4CB7-897E-852E7D34F5B5" name="gridType" visibility="private">
+          <ownedComment xmi:type="uml:Comment" xmi:id="6082170D-42B1-4CB7-897E-852E7D34F5B5_comment" annotatedElement="6082170D-42B1-4CB7-897E-852E7D34F5B5">
+            <body>The frequency grid type used for the DWDM applications according to ITU-T G694.1</body>
+          </ownedComment>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:StringExpression" xmi:id="6082170D-42B1-4CB7-897E-852E7D34F5B5_default" symbol="dwdm-flexible"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="55945A0D-E3E4-4D4E-B4EF-1AC9E3C6975C" name="adjustmentGranularity" visibility="private">
+          <ownedComment xmi:type="uml:Comment" xmi:id="55945A0D-E3E4-4D4E-B4EF-1AC9E3C6975C_comment" annotatedElement="55945A0D-E3E4-4D4E-B4EF-1AC9E3C6975C">
+            <body>This parameter specifies the nominal central frequency granularity</body>
+          </ownedComment>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:StringExpression" xmi:id="55945A0D-E3E4-4D4E-B4EF-1AC9E3C6975C_default" symbol="0"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="5B56AE7D-63C9-4B1D-B07E-5D5DB8CC494B" name="channelSpacing" visibility="private" isReadOnly="true">
+          <ownedComment xmi:type="uml:Comment" xmi:id="5B56AE7D-63C9-4B1D-B07E-5D5DB8CC494B_comment" annotatedElement="5B56AE7D-63C9-4B1D-B07E-5D5DB8CC494B">
+            <body>Space between channels</body>
+          </ownedComment>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:StringExpression" xmi:id="5B56AE7D-63C9-4B1D-B07E-5D5DB8CC494B_default" symbol=""/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="B405AF3B-4E82-44FD-B156-16632663E715" name="widthNumber" visibility="private">
+          <ownedComment xmi:type="uml:Comment" xmi:id="B405AF3B-4E82-44FD-B156-16632663E715_comment" annotatedElement="B405AF3B-4E82-44FD-B156-16632663E715">
+            <body>This parameter indicated the m which is a number that determines the slot width  according to ITU-T G694.1 </body>
+          </ownedComment>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:StringExpression" xmi:id="B405AF3B-4E82-44FD-B156-16632663E715_default" symbol="0"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="5D74135F-FBD2-491B-9977-34501636DC58" name="channelNumber" visibility="private">
+          <ownedComment xmi:type="uml:Comment" xmi:id="5D74135F-FBD2-491B-9977-34501636DC58_comment" annotatedElement="5D74135F-FBD2-491B-9977-34501636DC58">
+            <body>This parameter indicated the n which is a number that determines the nominal central frequency of thte slots  according to ITU-T G694.1 </body>
+          </ownedComment>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:StringExpression" xmi:id="5D74135F-FBD2-491B-9977-34501636DC58_default" symbol="0"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="63659834-EC42-4B67-BD01-B54C3E4EDC30" name="WaveShapeProperties">
+        <ownedComment xmi:type="uml:Comment" xmi:id="63659834-EC42-4B67-BD01-B54C3E4EDC30_comment" annotatedElement="63659834-EC42-4B67-BD01-B54C3E4EDC30">
+          <body>The object class 'WaveShapeProperties' …</body>
+        </ownedComment>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="108AB039-B286-4ECD-B315-E78E34C472DE" name="eyeMask" visibility="private" isReadOnly="true">
+          <ownedComment xmi:type="uml:Comment" xmi:id="108AB039-B286-4ECD-B315-E78E34C472DE_comment" annotatedElement="108AB039-B286-4ECD-B315-E78E34C472DE">
+            <body>The eye pattern used to estimate the signal distortion due to intersymbol interference and noise.
 In transmission, a quick and qualitative measure of the quality and integrity of the electronic signal (since optical has been converted to electrical) is a superposition of bit periods on an oscilloscope. This superposition is known as the “eye diagram”.
 The Opening of the Eye, E Eye = I 1,min - I 0,max
 Where:
@@ -309,1242 +143,525 @@ I 1,min =Minimum current threshold for logic 1 is set to
 I 0,max= Maximum current threshold for logic 0 is set to 
 
 </body>
-               </ownedComment>
-               <type xmi:type="uml:PrimitiveType"
-                     href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-               <defaultValue xmi:type="uml:StringExpression"
-                             xmi:id="108AB039-B286-4ECD-B315-E78E34C472DE_default"
-                             symbol=""/>
-            </ownedAttribute>
-            <ownedAttribute xmi:type="uml:Property"
-                            xmi:id="C92AA88D-09AD-4EBF-9B88-775C0030B492"
-                            name="extinctionRatio"
-                            visibility="private"
-                            isReadOnly="true">
-               <ownedComment xmi:type="uml:Comment"
-                             xmi:id="C92AA88D-09AD-4EBF-9B88-775C0030B492_comment"
-                             annotatedElement="C92AA88D-09AD-4EBF-9B88-775C0030B492">
-                  <body>This parameter defines  the ratio of two optical power levels of a digital signal generated by an optical laser</body>
-               </ownedComment>
-               <type xmi:type="uml:PrimitiveType"
-                     href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-               <defaultValue xmi:type="uml:StringExpression"
-                             xmi:id="C92AA88D-09AD-4EBF-9B88-775C0030B492_default"
-                             symbol="0"/>
-            </ownedAttribute>
-         </packagedElement>
-         <packagedElement xmi:type="uml:Class"
-                          xmi:id="D8E04FB4-1C21-49B7-83A8-0C9C54643CB3"
-                          name="ChannelPropertiesChannelSummary">
-            <ownedComment xmi:type="uml:Comment"
-                          xmi:id="D8E04FB4-1C21-49B7-83A8-0C9C54643CB3_comment"
-                          annotatedElement="D8E04FB4-1C21-49B7-83A8-0C9C54643CB3">
-               <body>The object class 'ChannelPropertiesChannelSummary' …</body>
-            </ownedComment>
-            <ownedAttribute xmi:type="uml:Property"
-                            xmi:id="5BDD79C8-7ABE-4BEA-BFD5-633723C3E401"
-                            name="channelPenalty"
-                            visibility="private"
-                            isReadOnly="true">
-               <ownedComment xmi:type="uml:Comment"
-                             xmi:id="5BDD79C8-7ABE-4BEA-BFD5-633723C3E401_comment"
-                             annotatedElement="5BDD79C8-7ABE-4BEA-BFD5-633723C3E401">
-                  <body>This parameter represents the distortion of the channel due to different noise source: if it is intended as Eye Opening Penalty it can be intended as
+          </ownedComment>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:StringExpression" xmi:id="108AB039-B286-4ECD-B315-E78E34C472DE_default" symbol=""/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="C92AA88D-09AD-4EBF-9B88-775C0030B492" name="extinctionRatio" visibility="private" isReadOnly="true">
+          <ownedComment xmi:type="uml:Comment" xmi:id="C92AA88D-09AD-4EBF-9B88-775C0030B492_comment" annotatedElement="C92AA88D-09AD-4EBF-9B88-775C0030B492">
+            <body>This parameter defines  the ratio of two optical power levels of a digital signal generated by an optical laser</body>
+          </ownedComment>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:StringExpression" xmi:id="C92AA88D-09AD-4EBF-9B88-775C0030B492_default" symbol="0"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="D8E04FB4-1C21-49B7-83A8-0C9C54643CB3" name="ChannelPropertiesChannelSummary">
+        <ownedComment xmi:type="uml:Comment" xmi:id="D8E04FB4-1C21-49B7-83A8-0C9C54643CB3_comment" annotatedElement="D8E04FB4-1C21-49B7-83A8-0C9C54643CB3">
+          <body>The object class 'ChannelPropertiesChannelSummary' …</body>
+        </ownedComment>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="5BDD79C8-7ABE-4BEA-BFD5-633723C3E401" name="channelPenalty" visibility="private" isReadOnly="true">
+          <ownedComment xmi:type="uml:Comment" xmi:id="5BDD79C8-7ABE-4BEA-BFD5-633723C3E401_comment" annotatedElement="5BDD79C8-7ABE-4BEA-BFD5-633723C3E401">
+            <body>This parameter represents the distortion of the channel due to different noise source: if it is intended as Eye Opening Penalty it can be intended as
 the relation between the expected opening of the eye (EEye) and the actual average eye opening (EAvg)
 this defines a penalty as: Penalty= EEye/2*EAvg
 
 </body>
-               </ownedComment>
-               <type xmi:type="uml:PrimitiveType"
-                     href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-               <defaultValue xmi:type="uml:StringExpression"
-                             xmi:id="5BDD79C8-7ABE-4BEA-BFD5-633723C3E401_default"
-                             symbol="0"/>
-            </ownedAttribute>
-         </packagedElement>
-         <packagedElement xmi:type="uml:Class"
-                          xmi:id="A0B62FC5-4B8D-4E8E-9621-B14237B0D77A"
-                          name="ChannelPropertiesChannelEntryEffects">
-            <ownedComment xmi:type="uml:Comment"
-                          xmi:id="A0B62FC5-4B8D-4E8E-9621-B14237B0D77A_comment"
-                          annotatedElement="A0B62FC5-4B8D-4E8E-9621-B14237B0D77A">
-               <body>The object class 'ChannelPropertiesChannelEntryEffects' …</body>
-            </ownedComment>
-            <ownedAttribute xmi:type="uml:Property"
-                            xmi:id="87FA64EC-DB8C-46EA-8B14-5A6A8A054282"
-                            name="channelInsertionLoss"
-                            visibility="private"
-                            isReadOnly="true">
-               <ownedComment xmi:type="uml:Comment"
-                             xmi:id="87FA64EC-DB8C-46EA-8B14-5A6A8A054282_comment"
-                             annotatedElement="87FA64EC-DB8C-46EA-8B14-5A6A8A054282">
-                  <body>Insertion loss is the loss of signal power resulting from the insertion of a device in a transmission line or optical fiber. It is measured by the amount of power received before and after the insertion
+          </ownedComment>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:StringExpression" xmi:id="5BDD79C8-7ABE-4BEA-BFD5-633723C3E401_default" symbol="0"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="A0B62FC5-4B8D-4E8E-9621-B14237B0D77A" name="ChannelPropertiesChannelEntryEffects">
+        <ownedComment xmi:type="uml:Comment" xmi:id="A0B62FC5-4B8D-4E8E-9621-B14237B0D77A_comment" annotatedElement="A0B62FC5-4B8D-4E8E-9621-B14237B0D77A">
+          <body>The object class 'ChannelPropertiesChannelEntryEffects' …</body>
+        </ownedComment>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="87FA64EC-DB8C-46EA-8B14-5A6A8A054282" name="channelInsertionLoss" visibility="private" isReadOnly="true">
+          <ownedComment xmi:type="uml:Comment" xmi:id="87FA64EC-DB8C-46EA-8B14-5A6A8A054282_comment" annotatedElement="87FA64EC-DB8C-46EA-8B14-5A6A8A054282">
+            <body>Insertion loss is the loss of signal power resulting from the insertion of a device in a transmission line or optical fiber. It is measured by the amount of power received before and after the insertion
 </body>
-               </ownedComment>
-               <type xmi:type="uml:PrimitiveType"
-                     href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-               <defaultValue xmi:type="uml:StringExpression"
-                             xmi:id="87FA64EC-DB8C-46EA-8B14-5A6A8A054282_default"
-                             symbol="0"/>
-            </ownedAttribute>
-            <ownedAttribute xmi:type="uml:Property"
-                            xmi:id="559B5551-7A36-427A-B31E-E6BE434D8089"
-                            name="channelReturnLoss"
-                            visibility="private"
-                            isReadOnly="true">
-               <ownedComment xmi:type="uml:Comment"
-                             xmi:id="559B5551-7A36-427A-B31E-E6BE434D8089_comment"
-                             annotatedElement="559B5551-7A36-427A-B31E-E6BE434D8089">
-                  <body>Return loss is the loss of power in the signal returned/reflected by a discontinuity in a transmission line or optical fiber. This discontinuity can be a mismatch with the terminating load or with a device inserted in the line. It is usually expressed as a ratio in decibels (dB);
+          </ownedComment>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:StringExpression" xmi:id="87FA64EC-DB8C-46EA-8B14-5A6A8A054282_default" symbol="0"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="559B5551-7A36-427A-B31E-E6BE434D8089" name="channelReturnLoss" visibility="private" isReadOnly="true">
+          <ownedComment xmi:type="uml:Comment" xmi:id="559B5551-7A36-427A-B31E-E6BE434D8089_comment" annotatedElement="559B5551-7A36-427A-B31E-E6BE434D8089">
+            <body>Return loss is the loss of power in the signal returned/reflected by a discontinuity in a transmission line or optical fiber. This discontinuity can be a mismatch with the terminating load or with a device inserted in the line. It is usually expressed as a ratio in decibels (dB);
 Return loss is related to both standing wave ratio (SWR) and reflection coefficient (Γ). Increasing return loss corresponds to lower SWR. Return loss is a measure of how well devices or lines are matched. A match is good if the return loss is high. A high return loss is desirable and results in a lower insertion loss.
 </body>
-               </ownedComment>
-               <type xmi:type="uml:PrimitiveType"
-                     href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-               <defaultValue xmi:type="uml:StringExpression"
-                             xmi:id="559B5551-7A36-427A-B31E-E6BE434D8089_default"
-                             symbol="0"/>
-            </ownedAttribute>
-            <ownedAttribute xmi:type="uml:Property"
-                            xmi:id="ACF82072-4EEC-491D-81F6-E71067EA44BE"
-                            name="channelReflectance"
-                            visibility="private"
-                            isReadOnly="true">
-               <ownedComment xmi:type="uml:Comment"
-                             xmi:id="ACF82072-4EEC-491D-81F6-E71067EA44BE_comment"
-                             annotatedElement="ACF82072-4EEC-491D-81F6-E71067EA44BE">
-                  <body> This parameter describes  the amount of light reflected compared to the power of the light being transmitted down the fiber. It is caused by the light going through the change in index of refraction at the interface between the fiber (n=~1.5) and air (n=~1). Reflectance is primarily a problem with connectors but may also affect mechanical splices which contain an index matching gel to prevent reflectance.</body>
-               </ownedComment>
-               <type xmi:type="uml:PrimitiveType"
-                     href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-               <defaultValue xmi:type="uml:StringExpression"
-                             xmi:id="ACF82072-4EEC-491D-81F6-E71067EA44BE_default"
-                             symbol="0"/>
-            </ownedAttribute>
-            <ownedAttribute xmi:type="uml:Property"
-                            xmi:id="9B89500D-77D9-481F-AE55-403B588B79BD"
-                            name="discreteReflectance"
-                            visibility="private"
-                            isReadOnly="true">
-               <ownedComment xmi:type="uml:Comment"
-                             xmi:id="9B89500D-77D9-481F-AE55-403B588B79BD_comment"
-                             annotatedElement="9B89500D-77D9-481F-AE55-403B588B79BD">
-                  <body>?</body>
-               </ownedComment>
-               <type xmi:type="uml:PrimitiveType"
-                     href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-               <defaultValue xmi:type="uml:StringExpression"
-                             xmi:id="9B89500D-77D9-481F-AE55-403B588B79BD_default"
-                             symbol=""/>
-            </ownedAttribute>
-         </packagedElement>
-         <packagedElement xmi:type="uml:Class"
-                          xmi:id="64C5A6A7-BAAE-4A8E-ADB6-C98E8D2FCF18"
-                          name="ChannelPropertiesChannelLoss">
-            <ownedComment xmi:type="uml:Comment"
-                          xmi:id="64C5A6A7-BAAE-4A8E-ADB6-C98E8D2FCF18_comment"
-                          annotatedElement="64C5A6A7-BAAE-4A8E-ADB6-C98E8D2FCF18">
-               <body>The object class 'ChannelPropertiesChannelLoss' …</body>
-            </ownedComment>
-            <ownedAttribute xmi:type="uml:Property"
-                            xmi:id="55ECFFFA-C657-4943-8968-5EDD8845B1EE"
-                            name="channelAttenuation"
-                            visibility="private"
-                            isReadOnly="true">
-               <ownedComment xmi:type="uml:Comment"
-                             xmi:id="55ECFFFA-C657-4943-8968-5EDD8845B1EE_comment"
-                             annotatedElement="55ECFFFA-C657-4943-8968-5EDD8845B1EE">
-                  <body>Maximum distance a signal can travel and still be picked up at receiver.</body>
-               </ownedComment>
-               <type xmi:type="uml:PrimitiveType"
-                     href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-               <defaultValue xmi:type="uml:StringExpression"
-                             xmi:id="55ECFFFA-C657-4943-8968-5EDD8845B1EE_default"
-                             symbol="0"/>
-            </ownedAttribute>
-         </packagedElement>
-         <packagedElement xmi:type="uml:Class"
-                          xmi:id="9D60033A-FC4F-4316-BF4C-E505F4B40450"
-                          name="ChannelPropertiesChannelDispersion">
-            <ownedComment xmi:type="uml:Comment"
-                          xmi:id="9D60033A-FC4F-4316-BF4C-E505F4B40450_comment"
-                          annotatedElement="9D60033A-FC4F-4316-BF4C-E505F4B40450">
-               <body>The object class 'ChannelPropertiesChannelDispersion' …</body>
-            </ownedComment>
-            <ownedAttribute xmi:type="uml:Property"
-                            xmi:id="FCB86013-48EE-4E5C-8151-BAD27A20DD11"
-                            name="channelDifferentialGroupDelay"
-                            visibility="private"
-                            isReadOnly="true">
-               <ownedComment xmi:type="uml:Comment"
-                             xmi:id="FCB86013-48EE-4E5C-8151-BAD27A20DD11_comment"
-                             annotatedElement="FCB86013-48EE-4E5C-8151-BAD27A20DD11">
-                  <body>This parameter indicates the difference in propagation time between the two single modes X and Y polarizations</body>
-               </ownedComment>
-               <type xmi:type="uml:PrimitiveType"
-                     href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-               <defaultValue xmi:type="uml:StringExpression"
-                             xmi:id="FCB86013-48EE-4E5C-8151-BAD27A20DD11_default"
-                             symbol="0"/>
-            </ownedAttribute>
-            <ownedAttribute xmi:type="uml:Property"
-                            xmi:id="659148FD-C6B7-459C-ACDF-BDEC6EEB39F9"
-                            name="chromaticDispersionCharacteristic"
-                            visibility="private"
-                            isReadOnly="true">
-               <ownedComment xmi:type="uml:Comment"
-                             xmi:id="659148FD-C6B7-459C-ACDF-BDEC6EEB39F9_comment"
-                             annotatedElement="659148FD-C6B7-459C-ACDF-BDEC6EEB39F9">
-                  <body>This parameter describes the spreading of a light pulse as it travels down a fiber when  light pulses launched close together (high data rates) spread too much and result in errors and a loss of information</body>
-               </ownedComment>
-               <type xmi:type="uml:PrimitiveType"
-                     href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-               <defaultValue xmi:type="uml:StringExpression"
-                             xmi:id="659148FD-C6B7-459C-ACDF-BDEC6EEB39F9_default"
-                             symbol="0"/>
-            </ownedAttribute>
-            <ownedAttribute xmi:type="uml:Property"
-                            xmi:id="0AA47ABB-32AE-46D0-BE65-42C518BBC081"
-                            name="polarizationModeDispersion"
-                            visibility="private"
-                            isReadOnly="true">
-               <ownedComment xmi:type="uml:Comment"
-                             xmi:id="0AA47ABB-32AE-46D0-BE65-42C518BBC081_comment"
-                             annotatedElement="0AA47ABB-32AE-46D0-BE65-42C518BBC081">
-                  <body>This parameter describes  a form of modal dispersion where two different polarizations of light in a waveguide, which normally travel at the same speed, travel at different speeds due to random imperfections and asymmetries, causing random spreading of optical pulses. Unless it is compensated, which is difficult, this ultimately limits the rate at which data can be transmitted over a fiber.</body>
-               </ownedComment>
-               <type xmi:type="uml:PrimitiveType"
-                     href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-               <defaultValue xmi:type="uml:StringExpression"
-                             xmi:id="0AA47ABB-32AE-46D0-BE65-42C518BBC081_default"
-                             symbol="0"/>
-            </ownedAttribute>
-         </packagedElement>
-         <packagedElement xmi:type="uml:Class"
-                          xmi:id="C46D0061-0EE1-4A4F-B00F-45C464F0E654"
-                          name="ChannelPropertiesChannelSignalCrosstalkProperties">
-            <ownedComment xmi:type="uml:Comment"
-                          xmi:id="C46D0061-0EE1-4A4F-B00F-45C464F0E654_comment"
-                          annotatedElement="C46D0061-0EE1-4A4F-B00F-45C464F0E654">
-               <body>The object class 'ChannelPropertiesChannelSignalCrosstalkProperties' …</body>
-            </ownedComment>
-            <ownedAttribute xmi:type="uml:Property"
-                            xmi:id="730CF117-C934-4F90-9E44-B2F35B5E1A51"
-                            name="interChannelCrosstalk"
-                            visibility="private"
-                            isReadOnly="true">
-               <ownedComment xmi:type="uml:Comment"
-                             xmi:id="730CF117-C934-4F90-9E44-B2F35B5E1A51_comment"
-                             annotatedElement="730CF117-C934-4F90-9E44-B2F35B5E1A51">
-                  <body>This parameter describes crosstalk between channels in a multiplex system.</body>
-               </ownedComment>
-               <type xmi:type="uml:PrimitiveType"
-                     href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-               <defaultValue xmi:type="uml:StringExpression"
-                             xmi:id="730CF117-C934-4F90-9E44-B2F35B5E1A51_default"
-                             symbol="0"/>
-            </ownedAttribute>
-            <ownedAttribute xmi:type="uml:Property"
-                            xmi:id="2718DFC4-4E3A-4218-B9BE-3AEFC57119E0"
-                            name="interferometricCrosstalk"
-                            visibility="private"
-                            isReadOnly="true">
-               <ownedComment xmi:type="uml:Comment"
-                             xmi:id="2718DFC4-4E3A-4218-B9BE-3AEFC57119E0_comment"
-                             annotatedElement="2718DFC4-4E3A-4218-B9BE-3AEFC57119E0">
-                  <body>This parameter describes Interferometric noise, arising from the optical interference of the desired information signal and parasitic crosstalk waveforms at the detector, afflicts practically all optical networks, inducing potentially unacceptable power penalties and bit-error-rate floors. Interferometric noise arises, for example, from multipaths in  the network from source to detector.</body>
-               </ownedComment>
-               <type xmi:type="uml:PrimitiveType"
-                     href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-               <defaultValue xmi:type="uml:StringExpression"
-                             xmi:id="2718DFC4-4E3A-4218-B9BE-3AEFC57119E0_default"
-                             symbol="0"/>
-            </ownedAttribute>
-         </packagedElement>
-         <packagedElement xmi:type="uml:Class"
-                          xmi:id="86E2D740-4BB4-4126-B02D-1ABB5B18361F"
-                          name="LaserProperties">
-            <ownedComment xmi:type="uml:Comment"
-                          xmi:id="86E2D740-4BB4-4126-B02D-1ABB5B18361F_comment"
-                          annotatedElement="86E2D740-4BB4-4126-B02D-1ABB5B18361F">
-               <body>The object class 'LaserProperties' …</body>
-            </ownedComment>
-            <ownedAttribute xmi:type="uml:Property"
-                            xmi:id="1E74942A-7F79-4E7E-92F7-F3CE993D3524"
-                            name="laserApplicationType "
-                            visibility="private"
-                            isReadOnly="false">
-               <ownedComment xmi:type="uml:Comment"
-                             xmi:id="1E74942A-7F79-4E7E-92F7-F3CE993D3524_comment"
-                             annotatedElement="1E74942A-7F79-4E7E-92F7-F3CE993D3524">
-                  <body>The type of laser, its operational wavelengths, and its applications</body>
-               </ownedComment>
-               <type xmi:type="uml:PrimitiveType"
-                     href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-               <defaultValue xmi:type="uml:StringExpression"
-                             xmi:id="1E74942A-7F79-4E7E-92F7-F3CE993D3524_default"
-                             symbol="not initialized"/>
-            </ownedAttribute>
-            <ownedAttribute xmi:type="uml:Property"
-                            xmi:id="1ADDEF5A-A58D-4693-8055-70B9260595C3"
-                            name="laserBiasCurrent"
-                            visibility="private"
-                            isReadOnly="false">
-               <ownedComment xmi:type="uml:Comment"
-                             xmi:id="1ADDEF5A-A58D-4693-8055-70B9260595C3_comment"
-                             annotatedElement="1ADDEF5A-A58D-4693-8055-70B9260595C3">
-                  <body>The Bias current of the laser that is the medium polarization current of the laser</body>
-               </ownedComment>
-               <type xmi:type="uml:PrimitiveType"
-                     href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-               <defaultValue xmi:type="uml:StringExpression"
-                             xmi:id="1ADDEF5A-A58D-4693-8055-70B9260595C3_default"
-                             symbol="0"/>
-            </ownedAttribute>
-            <ownedAttribute xmi:type="uml:Property"
-                            xmi:id="E643C7A8-4F81-4837-9B4D-8924A89C3565"
-                            name="laserTemperature "
-                            visibility="private"
-                            isReadOnly="true">
-               <ownedComment xmi:type="uml:Comment"
-                             xmi:id="E643C7A8-4F81-4837-9B4D-8924A89C3565_comment"
-                             annotatedElement="E643C7A8-4F81-4837-9B4D-8924A89C3565">
-                  <body>The temperature of the laser</body>
-               </ownedComment>
-               <type xmi:type="uml:PrimitiveType"
-                     href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-               <defaultValue xmi:type="uml:StringExpression"
-                             xmi:id="E643C7A8-4F81-4837-9B4D-8924A89C3565_default"
-                             symbol="0"/>
-            </ownedAttribute>
-         </packagedElement>
-         <packagedElement xmi:type="uml:Class"
-                          xmi:id="8EBF2406-6F73-4DB5-A54E-51B144B665F0"
-                          name="ModulatedLightProperties">
-            <ownedComment xmi:type="uml:Comment"
-                          xmi:id="8EBF2406-6F73-4DB5-A54E-51B144B665F0_comment"
-                          annotatedElement="8EBF2406-6F73-4DB5-A54E-51B144B665F0">
-               <body>The object class 'ModulatedLightProperties' …</body>
-            </ownedComment>
-            <ownedAttribute xmi:type="uml:Property"
-                            xmi:id="3E80D61F-91FF-4258-AF6B-3977F4AECFA5"
-                            name="spectralWidth "
-                            visibility="private"
-                            isReadOnly="true">
-               <ownedComment xmi:type="uml:Comment"
-                             xmi:id="3E80D61F-91FF-4258-AF6B-3977F4AECFA5_comment"
-                             annotatedElement="3E80D61F-91FF-4258-AF6B-3977F4AECFA5">
-                  <body>The wavelength interval over which the magnitude of all spectral components is equal to or greater than a specified fraction of the magnitude of the component having the maximum value</body>
-               </ownedComment>
-               <type xmi:type="uml:PrimitiveType"
-                     href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-               <defaultValue xmi:type="uml:StringExpression"
-                             xmi:id="3E80D61F-91FF-4258-AF6B-3977F4AECFA5_default"
-                             symbol="0"/>
-            </ownedAttribute>
-         </packagedElement>
-         <packagedElement xmi:type="uml:Class"
-                          xmi:id="EE1F36F4-D749-4B93-9B07-7A9901DD4C6F"
-                          name="ReceiverProperties">
-            <ownedComment xmi:type="uml:Comment"
-                          xmi:id="EE1F36F4-D749-4B93-9B07-7A9901DD4C6F_comment"
-                          annotatedElement="EE1F36F4-D749-4B93-9B07-7A9901DD4C6F">
-               <body>The object class 'ReceiverProperties' …</body>
-            </ownedComment>
-            <ownedAttribute xmi:type="uml:Property"
-                            xmi:id="5A5797BF-BDBE-4BE0-9029-D7E7F2A113C2"
-                            name="modulationApproach "
-                            visibility="private"
-                            isReadOnly="false">
-               <ownedComment xmi:type="uml:Comment"
-                             xmi:id="5A5797BF-BDBE-4BE0-9029-D7E7F2A113C2_comment"
-                             annotatedElement="5A5797BF-BDBE-4BE0-9029-D7E7F2A113C2">
-                  <body>This parameter defines the modulation used at the source</body>
-               </ownedComment>
-               <type xmi:type="uml:PrimitiveType"
-                     href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-               <defaultValue xmi:type="uml:StringExpression"
-                             xmi:id="5A5797BF-BDBE-4BE0-9029-D7E7F2A113C2_default"
-                             symbol="not initialized"/>
-            </ownedAttribute>
-            <ownedAttribute xmi:type="uml:Property"
-                            xmi:id="B8BF0F3E-8158-4677-A298-90CA8E5D6B78"
-                            name="receiverEquivalentSensitivity"
-                            visibility="private"
-                            isReadOnly="true">
-               <ownedComment xmi:type="uml:Comment"
-                             xmi:id="B8BF0F3E-8158-4677-A298-90CA8E5D6B78_comment"
-                             annotatedElement="B8BF0F3E-8158-4677-A298-90CA8E5D6B78">
-                  <body>?</body>
-               </ownedComment>
-               <type xmi:type="uml:PrimitiveType"
-                     href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-               <defaultValue xmi:type="uml:StringExpression"
-                             xmi:id="B8BF0F3E-8158-4677-A298-90CA8E5D6B78_default"
-                             symbol=""/>
-            </ownedAttribute>
-            <ownedAttribute xmi:type="uml:Property"
-                            xmi:id="918CAF95-EC15-403E-B2E7-BD4E4EC03089"
-                            name="receiverSensitivity"
-                            visibility="private"
-                            isReadOnly="true">
-               <ownedComment xmi:type="uml:Comment"
-                             xmi:id="918CAF95-EC15-403E-B2E7-BD4E4EC03089_comment"
-                             annotatedElement="918CAF95-EC15-403E-B2E7-BD4E4EC03089">
-                  <body>Receiver sensitivity is the lowest power level at which the receiver can detect a signal and demodulate data.</body>
-               </ownedComment>
-               <type xmi:type="uml:PrimitiveType"
-                     href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-               <defaultValue xmi:type="uml:StringExpression"
-                             xmi:id="918CAF95-EC15-403E-B2E7-BD4E4EC03089_default"
-                             symbol="0"/>
-            </ownedAttribute>
-            <ownedAttribute xmi:type="uml:Property"
-                            xmi:id="CA2306CC-B1A7-4DE6-B88D-7BA8357BA198"
-                            name="receiverReflectance"
-                            visibility="private"
-                            isReadOnly="true">
-               <ownedComment xmi:type="uml:Comment"
-                             xmi:id="CA2306CC-B1A7-4DE6-B88D-7BA8357BA198_comment"
-                             annotatedElement="CA2306CC-B1A7-4DE6-B88D-7BA8357BA198">
-                  <body>Fraction of incident electromagnetic power that is reflected at an interface of the receiver</body>
-               </ownedComment>
-               <type xmi:type="uml:PrimitiveType"
-                     href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-               <defaultValue xmi:type="uml:StringExpression"
-                             xmi:id="CA2306CC-B1A7-4DE6-B88D-7BA8357BA198_default"
-                             symbol="0"/>
-            </ownedAttribute>
-         </packagedElement>
-         <packagedElement xmi:type="uml:Class"
-                          xmi:id="2D3D3BBB-50ED-4354-8AC1-D56735296E1B"
-                          name="PowerProperties">
-            <ownedComment xmi:type="uml:Comment"
-                          xmi:id="2D3D3BBB-50ED-4354-8AC1-D56735296E1B_comment"
-                          annotatedElement="2D3D3BBB-50ED-4354-8AC1-D56735296E1B">
-               <body>The object class 'PowerProperties' …</body>
-            </ownedComment>
-            <ownedAttribute xmi:type="uml:Property"
-                            xmi:id="14976E2B-D858-4328-A851-FE600588BD06"
-                            name="totalPower"
-                            visibility="private"
-                            isReadOnly="true">
-               <ownedComment xmi:type="uml:Comment"
-                             xmi:id="14976E2B-D858-4328-A851-FE600588BD06_comment"
-                             annotatedElement="14976E2B-D858-4328-A851-FE600588BD06">
-                  <body>The total power at any point in a channel including TX and RX</body>
-               </ownedComment>
-               <type xmi:type="uml:PrimitiveType"
-                     href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-               <defaultValue xmi:type="uml:StringExpression"
-                             xmi:id="14976E2B-D858-4328-A851-FE600588BD06_default"
-                             symbol="0"/>
-            </ownedAttribute>
-            <ownedAttribute xmi:type="uml:Property"
-                            xmi:id="E2BEC4F0-C10E-4217-9569-878D1DE166CA"
-                            name="powerSpectralDensity"
-                            visibility="private"
-                            isReadOnly="true">
-               <ownedComment xmi:type="uml:Comment"
-                             xmi:id="E2BEC4F0-C10E-4217-9569-878D1DE166CA_comment"
-                             annotatedElement="E2BEC4F0-C10E-4217-9569-878D1DE166CA">
-                  <body>This describes how power of a signal  is distributed over frequency</body>
-               </ownedComment>
-               <type xmi:type="uml:PrimitiveType"
-                     href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-               <defaultValue xmi:type="uml:StringExpression"
-                             xmi:id="E2BEC4F0-C10E-4217-9569-878D1DE166CA_default"
-                             symbol="0"/>
-            </ownedAttribute>
-         </packagedElement>
-         <packagedElement xmi:type="uml:Class"
-                          xmi:id="71AC1E15-E7C4-4773-A14D-F530557FB858"
-                          name="FecProperties">
-            <ownedComment xmi:type="uml:Comment"
-                          xmi:id="71AC1E15-E7C4-4773-A14D-F530557FB858_comment"
-                          annotatedElement="71AC1E15-E7C4-4773-A14D-F530557FB858">
-               <body>The object class 'FecProperties' …</body>
-            </ownedComment>
-            <ownedAttribute xmi:type="uml:Property"
-                            xmi:id="22C4FCAC-D25D-4060-A323-DED32D95CC36"
-                            name="preFecBer"
-                            visibility="private"
-                            isReadOnly="true">
-               <ownedComment xmi:type="uml:Comment"
-                             xmi:id="22C4FCAC-D25D-4060-A323-DED32D95CC36_comment"
-                             annotatedElement="22C4FCAC-D25D-4060-A323-DED32D95CC36">
-                  <body>counter: bit error rate after correction by FEC</body>
-               </ownedComment>
-               <type xmi:type="uml:PrimitiveType"
-                     href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-               <defaultValue xmi:type="uml:StringExpression"
-                             xmi:id="22C4FCAC-D25D-4060-A323-DED32D95CC36_default"
-                             symbol="0"/>
-            </ownedAttribute>
-            <ownedAttribute xmi:type="uml:Property"
-                            xmi:id="73AE8CDE-E79D-4560-A36E-3DAEBD844E5C"
-                            name="postFecBer"
-                            visibility="private"
-                            isReadOnly="true">
-               <ownedComment xmi:type="uml:Comment"
-                             xmi:id="73AE8CDE-E79D-4560-A36E-3DAEBD844E5C_comment"
-                             annotatedElement="73AE8CDE-E79D-4560-A36E-3DAEBD844E5C">
-                  <body>Counter: bit error rate after correction by FEC</body>
-               </ownedComment>
-               <type xmi:type="uml:PrimitiveType"
-                     href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-               <defaultValue xmi:type="uml:StringExpression"
-                             xmi:id="73AE8CDE-E79D-4560-A36E-3DAEBD844E5C_default"
-                             symbol="0"/>
-            </ownedAttribute>
-            <ownedAttribute xmi:type="uml:Property"
-                            xmi:id="A742964E-2C3E-435C-BF9C-CE8DE594E6E7"
-                            name="uncorrectableBits"
-                            visibility="private"
-                            isReadOnly="true">
-               <ownedComment xmi:type="uml:Comment"
-                             xmi:id="A742964E-2C3E-435C-BF9C-CE8DE594E6E7_comment"
-                             annotatedElement="A742964E-2C3E-435C-BF9C-CE8DE594E6E7">
-                  <body>Bits that could not be corrected by FEC</body>
-               </ownedComment>
-               <type xmi:type="uml:PrimitiveType"
-                     href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-               <defaultValue xmi:type="uml:StringExpression"
-                             xmi:id="A742964E-2C3E-435C-BF9C-CE8DE594E6E7_default"
-                             symbol="0"/>
-            </ownedAttribute>
-            <ownedAttribute xmi:type="uml:Property"
-                            xmi:id="25E56AEB-B518-42E1-9E37-7542DFDD7B10"
-                            name="uncorrectableBytes"
-                            visibility="private"
-                            isReadOnly="true">
-               <ownedComment xmi:type="uml:Comment"
-                             xmi:id="25E56AEB-B518-42E1-9E37-7542DFDD7B10_comment"
-                             annotatedElement="25E56AEB-B518-42E1-9E37-7542DFDD7B10">
-                  <body>Bytes that could not be corrected by FEC</body>
-               </ownedComment>
-               <type xmi:type="uml:PrimitiveType"
-                     href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-               <defaultValue xmi:type="uml:StringExpression"
-                             xmi:id="25E56AEB-B518-42E1-9E37-7542DFDD7B10_default"
-                             symbol="0"/>
-            </ownedAttribute>
-            <ownedAttribute xmi:type="uml:Property"
-                            xmi:id="B7C11997-D705-4DD6-9AAD-3DB6067A9E91"
-                            name="correctedBytes"
-                            visibility="private"
-                            isReadOnly="true">
-               <ownedComment xmi:type="uml:Comment"
-                             xmi:id="B7C11997-D705-4DD6-9AAD-3DB6067A9E91_comment"
-                             annotatedElement="B7C11997-D705-4DD6-9AAD-3DB6067A9E91">
-                  <body>Bytes corrected between those that were received corrupted</body>
-               </ownedComment>
-               <type xmi:type="uml:PrimitiveType"
-                     href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-               <defaultValue xmi:type="uml:StringExpression"
-                             xmi:id="B7C11997-D705-4DD6-9AAD-3DB6067A9E91_default"
-                             symbol="0"/>
-            </ownedAttribute>
-            <ownedAttribute xmi:type="uml:Property"
-                            xmi:id="F162CD3A-B644-4BB3-A3A1-2814F7914056"
-                            name="correctedBits"
-                            visibility="private"
-                            isReadOnly="true">
-               <ownedComment xmi:type="uml:Comment"
-                             xmi:id="F162CD3A-B644-4BB3-A3A1-2814F7914056_comment"
-                             annotatedElement="F162CD3A-B644-4BB3-A3A1-2814F7914056">
-                  <body>BytBits corrected between those that were received corrupted</body>
-               </ownedComment>
-               <type xmi:type="uml:PrimitiveType"
-                     href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-               <defaultValue xmi:type="uml:StringExpression"
-                             xmi:id="F162CD3A-B644-4BB3-A3A1-2814F7914056_default"
-                             symbol="0"/>
-            </ownedAttribute>
-            <ownedAttribute xmi:type="uml:Property"
-                            xmi:id="B5EE705D-B28F-4FF8-BCAE-6C2D6AFBA6A1"
-                            name="qualityValue"
-                            visibility="private"
-                            isReadOnly="true">
-               <ownedComment xmi:type="uml:Comment"
-                             xmi:id="B5EE705D-B28F-4FF8-BCAE-6C2D6AFBA6A1_comment"
-                             annotatedElement="B5EE705D-B28F-4FF8-BCAE-6C2D6AFBA6A1">
-                  <body>% of errors that were corrected in Bits or Bytes</body>
-               </ownedComment>
-               <type xmi:type="uml:PrimitiveType"
-                     href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-               <defaultValue xmi:type="uml:StringExpression"
-                             xmi:id="B5EE705D-B28F-4FF8-BCAE-6C2D6AFBA6A1_default"
-                             symbol="0"/>
-            </ownedAttribute>
-         </packagedElement>
-         <packagedElement xmi:type="uml:Class"
-                          xmi:id="41DA8019-FE9C-41D2-8795-2FE1DD104D03"
-                          name="ChannelTrace">
-            <ownedComment xmi:type="uml:Comment"
-                          xmi:id="41DA8019-FE9C-41D2-8795-2FE1DD104D03_comment"
-                          annotatedElement="41DA8019-FE9C-41D2-8795-2FE1DD104D03">
-               <body>The object class 'ChannelTrace' …</body>
-            </ownedComment>
-            <ownedAttribute xmi:type="uml:Property"
-                            xmi:id="4E6E1F7F-3DFE-4057-9BDA-1B7BE0206E59"
-                            name="traceTransferMethod"
-                            visibility="private"
-                            isReadOnly="true">
-               <ownedComment xmi:type="uml:Comment"
-                             xmi:id="4E6E1F7F-3DFE-4057-9BDA-1B7BE0206E59_comment"
-                             annotatedElement="4E6E1F7F-3DFE-4057-9BDA-1B7BE0206E59">
-                  <body>Method based on the transmission of a trace in order to identify the right transmitter in the channel</body>
-               </ownedComment>
-               <type xmi:type="uml:PrimitiveType"
-                     href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-               <defaultValue xmi:type="uml:StringExpression"
-                             xmi:id="4E6E1F7F-3DFE-4057-9BDA-1B7BE0206E59_default"
-                             symbol="not initialized"/>
-            </ownedAttribute>
-            <ownedAttribute xmi:type="uml:Property"
-                            xmi:id="88752A28-4B5B-4952-B3C2-4B2714BBD957"
-                            name="traceTransmitted"
-                            visibility="private"
-                            isReadOnly="true">
-               <ownedComment xmi:type="uml:Comment"
-                             xmi:id="88752A28-4B5B-4952-B3C2-4B2714BBD957_comment"
-                             annotatedElement="88752A28-4B5B-4952-B3C2-4B2714BBD957">
-                  <body>Trace transmitted to the transmitter in the trace transfer method to identify the right transmitter in the channel</body>
-               </ownedComment>
-               <type xmi:type="uml:PrimitiveType"
-                     href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-               <defaultValue xmi:type="uml:StringExpression"
-                             xmi:id="88752A28-4B5B-4952-B3C2-4B2714BBD957_default"
-                             symbol="not initialized"/>
-            </ownedAttribute>
-            <ownedAttribute xmi:type="uml:Property"
-                            xmi:id="075D21BF-C986-4278-9664-280D3A9DD2B4"
-                            name="traceReceived"
-                            visibility="private"
-                            isReadOnly="true">
-               <ownedComment xmi:type="uml:Comment"
-                             xmi:id="075D21BF-C986-4278-9664-280D3A9DD2B4_comment"
-                             annotatedElement="075D21BF-C986-4278-9664-280D3A9DD2B4">
-                  <body>Trace received from the transmitter in the trace transfer method</body>
-               </ownedComment>
-               <type xmi:type="uml:PrimitiveType"
-                     href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-               <defaultValue xmi:type="uml:StringExpression"
-                             xmi:id="075D21BF-C986-4278-9664-280D3A9DD2B4_default"
-                             symbol="not initialized"/>
-            </ownedAttribute>
-            <ownedAttribute xmi:type="uml:Property"
-                            xmi:id="3B2A9E53-C65B-4EA8-8286-AF0ED633DC2E"
-                            name="traceExpected"
-                            visibility="private"
-                            isReadOnly="true">
-               <ownedComment xmi:type="uml:Comment"
-                             xmi:id="3B2A9E53-C65B-4EA8-8286-AF0ED633DC2E_comment"
-                             annotatedElement="3B2A9E53-C65B-4EA8-8286-AF0ED633DC2E">
-                  <body>Trace expected from the transmitter in the trace transfer method </body>
-               </ownedComment>
-               <type xmi:type="uml:PrimitiveType"
-                     href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-               <defaultValue xmi:type="uml:StringExpression"
-                             xmi:id="3B2A9E53-C65B-4EA8-8286-AF0ED633DC2E_default"
-                             symbol="not initialized"/>
-            </ownedAttribute>
-            <ownedAttribute xmi:type="uml:Property"
-                            xmi:id="4B8C73E8-0D0F-4FB6-B588-E38CBF9BCC0B"
-                            name="traceMismatchDetected"
-                            visibility="private"
-                            isReadOnly="true">
-               <ownedComment xmi:type="uml:Comment"
-                             xmi:id="4B8C73E8-0D0F-4FB6-B588-E38CBF9BCC0B_comment"
-                             annotatedElement="4B8C73E8-0D0F-4FB6-B588-E38CBF9BCC0B">
-                  <body>Wrong trace received from the transmitter in the trace transfer method </body>
-               </ownedComment>
-               <type xmi:type="uml:PrimitiveType"
-                     href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-               <defaultValue xmi:type="uml:StringExpression"
-                             xmi:id="4B8C73E8-0D0F-4FB6-B588-E38CBF9BCC0B_default"
-                             symbol="not initialized"/>
-            </ownedAttribute>
-            <ownedAttribute xmi:type="uml:Property"
-                            xmi:id="439A93E5-620E-490C-9D47-CEF95944C22A"
-                            name="traceMismatchDetectionMode"
-                            visibility="private"
-                            isReadOnly="true">
-               <ownedComment xmi:type="uml:Comment"
-                             xmi:id="439A93E5-620E-490C-9D47-CEF95944C22A_comment"
-                             annotatedElement="439A93E5-620E-490C-9D47-CEF95944C22A">
-                  <body>Mode to identify a mismatch in the trace detection</body>
-               </ownedComment>
-               <type xmi:type="uml:PrimitiveType"
-                     href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-               <defaultValue xmi:type="uml:StringExpression"
-                             xmi:id="439A93E5-620E-490C-9D47-CEF95944C22A_default"
-                             symbol="not initialized"/>
-            </ownedAttribute>
-            <ownedAttribute xmi:type="uml:Property"
-                            xmi:id="BB0EC746-6386-4622-89A8-19542E81019D"
-                            name="traceMismatchDetectionAction"
-                            visibility="private"
-                            isReadOnly="true">
-               <ownedComment xmi:type="uml:Comment"
-                             xmi:id="BB0EC746-6386-4622-89A8-19542E81019D_comment"
-                             annotatedElement="BB0EC746-6386-4622-89A8-19542E81019D">
-                  <body>Action to follow after a trace mismatch is detected</body>
-               </ownedComment>
-               <type xmi:type="uml:PrimitiveType"
-                     href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-               <defaultValue xmi:type="uml:StringExpression"
-                             xmi:id="BB0EC746-6386-4622-89A8-19542E81019D_default"
-                             symbol="not initialized"/>
-            </ownedAttribute>
-            <ownedAttribute xmi:type="uml:Property"
-                            xmi:id="F19BE98B-2AF5-46BB-9B11-67551997E645"
-                            name="traceGenerationApproach"
-                            visibility="private"
-                            isReadOnly="true">
-               <ownedComment xmi:type="uml:Comment"
-                             xmi:id="F19BE98B-2AF5-46BB-9B11-67551997E645_comment"
-                             annotatedElement="F19BE98B-2AF5-46BB-9B11-67551997E645">
-                  <body>How to generate a trace</body>
-               </ownedComment>
-               <type xmi:type="uml:PrimitiveType"
-                     href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-               <defaultValue xmi:type="uml:StringExpression"
-                             xmi:id="F19BE98B-2AF5-46BB-9B11-67551997E645_default"
-                             symbol="not initialized"/>
-            </ownedAttribute>
-         </packagedElement>
-         <packagedElement xmi:type="uml:Class"
-                          xmi:id="3791C1E8-BE67-4E46-838E-F4D30C35170D"
-                          name="SignalSourceLabel">
-            <ownedComment xmi:type="uml:Comment"
-                          xmi:id="3791C1E8-BE67-4E46-838E-F4D30C35170D_comment"
-                          annotatedElement="3791C1E8-BE67-4E46-838E-F4D30C35170D">
-               <body>The object class 'SignalSourceLabel' …</body>
-            </ownedComment>
-            <ownedAttribute xmi:type="uml:Property"
-                            xmi:id="BCDD8392-303E-4CA6-A1D4-0DE1E50367F0"
-                            name="signalLabelTransferMethod"
-                            visibility="private"
-                            isReadOnly="true">
-               <ownedComment xmi:type="uml:Comment"
-                             xmi:id="BCDD8392-303E-4CA6-A1D4-0DE1E50367F0_comment"
-                             annotatedElement="BCDD8392-303E-4CA6-A1D4-0DE1E50367F0">
-                  <body>Method to transfer a signal label that contains soime characteristic of the transmitted signal</body>
-               </ownedComment>
-               <type xmi:type="uml:PrimitiveType"
-                     href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-               <defaultValue xmi:type="uml:StringExpression"
-                             xmi:id="BCDD8392-303E-4CA6-A1D4-0DE1E50367F0_default"
-                             symbol="not initialized"/>
-            </ownedAttribute>
-            <ownedAttribute xmi:type="uml:Property"
-                            xmi:id="579D0AAD-4F55-4EC3-8EED-BE349FC2F540"
-                            name="signalLabelTransmitted"
-                            visibility="private"
-                            isReadOnly="true">
-               <ownedComment xmi:type="uml:Comment"
-                             xmi:id="579D0AAD-4F55-4EC3-8EED-BE349FC2F540_comment"
-                             annotatedElement="579D0AAD-4F55-4EC3-8EED-BE349FC2F540">
-                  <body>Signal label that contains soime characteristic of the transmitted signal</body>
-               </ownedComment>
-               <type xmi:type="uml:PrimitiveType"
-                     href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-               <defaultValue xmi:type="uml:StringExpression"
-                             xmi:id="579D0AAD-4F55-4EC3-8EED-BE349FC2F540_default"
-                             symbol="not initialized"/>
-            </ownedAttribute>
-            <ownedAttribute xmi:type="uml:Property"
-                            xmi:id="FDBCFC91-3438-4349-AF57-DB6202AAB316"
-                            name="signalLabelReceived"
-                            visibility="private"
-                            isReadOnly="true">
-               <ownedComment xmi:type="uml:Comment"
-                             xmi:id="FDBCFC91-3438-4349-AF57-DB6202AAB316_comment"
-                             annotatedElement="FDBCFC91-3438-4349-AF57-DB6202AAB316">
-                  <body>Signal label that contains soime characteristic of the received signal</body>
-               </ownedComment>
-               <type xmi:type="uml:PrimitiveType"
-                     href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-               <defaultValue xmi:type="uml:StringExpression"
-                             xmi:id="FDBCFC91-3438-4349-AF57-DB6202AAB316_default"
-                             symbol="not initialized"/>
-            </ownedAttribute>
-            <ownedAttribute xmi:type="uml:Property"
-                            xmi:id="E0BCB6B3-51C4-450C-87B7-26111946E99C"
-                            name="signalLabelExpected"
-                            visibility="private"
-                            isReadOnly="true">
-               <ownedComment xmi:type="uml:Comment"
-                             xmi:id="E0BCB6B3-51C4-450C-87B7-26111946E99C_comment"
-                             annotatedElement="E0BCB6B3-51C4-450C-87B7-26111946E99C">
-                  <body>Signal label expected</body>
-               </ownedComment>
-               <type xmi:type="uml:PrimitiveType"
-                     href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-               <defaultValue xmi:type="uml:StringExpression"
-                             xmi:id="E0BCB6B3-51C4-450C-87B7-26111946E99C_default"
-                             symbol="not initialized"/>
-            </ownedAttribute>
-            <ownedAttribute xmi:type="uml:Property"
-                            xmi:id="A44C9380-80E6-4B04-997A-9E0A215C06FF"
-                            name="signalLabelMismatchDectected"
-                            visibility="private"
-                            isReadOnly="true">
-               <ownedComment xmi:type="uml:Comment"
-                             xmi:id="A44C9380-80E6-4B04-997A-9E0A215C06FF_comment"
-                             annotatedElement="A44C9380-80E6-4B04-997A-9E0A215C06FF">
-                  <body>Signal label mismatch is detected</body>
-               </ownedComment>
-               <type xmi:type="uml:PrimitiveType"
-                     href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-               <defaultValue xmi:type="uml:StringExpression"
-                             xmi:id="A44C9380-80E6-4B04-997A-9E0A215C06FF_default"
-                             symbol="not initialized"/>
-            </ownedAttribute>
-            <ownedAttribute xmi:type="uml:Property"
-                            xmi:id="E3473CD6-DB98-4F36-99D3-C2B104A7CE38"
-                            name="signalLabelMismatchDetectionMode"
-                            visibility="private"
-                            isReadOnly="true">
-               <ownedComment xmi:type="uml:Comment"
-                             xmi:id="E3473CD6-DB98-4F36-99D3-C2B104A7CE38_comment"
-                             annotatedElement="E3473CD6-DB98-4F36-99D3-C2B104A7CE38">
-                  <body>Method to identify a signal label mismatch </body>
-               </ownedComment>
-               <type xmi:type="uml:PrimitiveType"
-                     href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-               <defaultValue xmi:type="uml:StringExpression"
-                             xmi:id="E3473CD6-DB98-4F36-99D3-C2B104A7CE38_default"
-                             symbol="not initialized"/>
-            </ownedAttribute>
-            <ownedAttribute xmi:type="uml:Property"
-                            xmi:id="AD821561-7446-4469-A34F-24ADBA293352"
-                            name="signalLabelMismatchDetectionAction"
-                            visibility="private"
-                            isReadOnly="true">
-               <ownedComment xmi:type="uml:Comment"
-                             xmi:id="AD821561-7446-4469-A34F-24ADBA293352_comment"
-                             annotatedElement="AD821561-7446-4469-A34F-24ADBA293352">
-                  <body>Action to take after identifying a signal label mismatch</body>
-               </ownedComment>
-               <type xmi:type="uml:PrimitiveType"
-                     href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-               <defaultValue xmi:type="uml:StringExpression"
-                             xmi:id="AD821561-7446-4469-A34F-24ADBA293352_default"
-                             symbol="not initialized"/>
-            </ownedAttribute>
-            <ownedAttribute xmi:type="uml:Property"
-                            xmi:id="36E45988-CFF4-4002-A4EA-91FC2AE42819"
-                            name="signalLabelGenerationApproach"
-                            visibility="private"
-                            isReadOnly="true">
-               <ownedComment xmi:type="uml:Comment"
-                             xmi:id="36E45988-CFF4-4002-A4EA-91FC2AE42819_comment"
-                             annotatedElement="36E45988-CFF4-4002-A4EA-91FC2AE42819">
-                  <body>How to generate a signal label</body>
-               </ownedComment>
-               <type xmi:type="uml:PrimitiveType"
-                     href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-               <defaultValue xmi:type="uml:StringExpression"
-                             xmi:id="36E45988-CFF4-4002-A4EA-91FC2AE42819_default"
-                             symbol="not initialized"/>
-            </ownedAttribute>
-         </packagedElement>
-         <packagedElement xmi:type="uml:Class"
-                          xmi:id="73CDF40F-5C6B-4745-9108-3E0E56E31B7D"
-                          name="SignalCharacteristics">
-            <ownedComment xmi:type="uml:Comment"
-                          xmi:id="73CDF40F-5C6B-4745-9108-3E0E56E31B7D_comment"
-                          annotatedElement="73CDF40F-5C6B-4745-9108-3E0E56E31B7D">
-               <body>The object class 'SignalCharacteristics' …</body>
-            </ownedComment>
-            <ownedAttribute xmi:type="uml:Property"
-                            xmi:id="121A581F-C138-4877-9495-98C794D98072"
-                            name="OpenConnectionIndication&#xA;"
-                            visibility="private"
-                            isReadOnly="true">
-               <ownedComment xmi:type="uml:Comment"
-                             xmi:id="121A581F-C138-4877-9495-98C794D98072_comment"
-                             annotatedElement="121A581F-C138-4877-9495-98C794D98072">
-                  <body/>
-               </ownedComment>
-               <type xmi:type="uml:PrimitiveType"
-                     href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-               <defaultValue xmi:type="uml:StringExpression"
-                             xmi:id="121A581F-C138-4877-9495-98C794D98072_default"
-                             symbol=""/>
-            </ownedAttribute>
-            <ownedAttribute xmi:type="uml:Property"
-                            xmi:id="73EA081B-DABB-4220-9543-3E053B42A2D6"
-                            name="bitRateLineCoding"
-                            visibility="private"
-                            isReadOnly="true">
-               <ownedComment xmi:type="uml:Comment"
-                             xmi:id="73EA081B-DABB-4220-9543-3E053B42A2D6_comment"
-                             annotatedElement="73EA081B-DABB-4220-9543-3E053B42A2D6">
-                  <body>Bit rate used according to the noisy of the communication channel</body>
-               </ownedComment>
-               <type xmi:type="uml:PrimitiveType"
-                     href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-               <defaultValue xmi:type="uml:StringExpression"
-                             xmi:id="73EA081B-DABB-4220-9543-3E053B42A2D6_default"
-                             symbol=""/>
-            </ownedAttribute>
-         </packagedElement>
-         <packagedElement xmi:type="uml:Class"
-                          xmi:id="8B98F399-D3FC-42EB-ADDC-5BB3E2B8EEAE"
-                          name="FarendIndications">
-            <ownedComment xmi:type="uml:Comment"
-                          xmi:id="8B98F399-D3FC-42EB-ADDC-5BB3E2B8EEAE_comment"
-                          annotatedElement="8B98F399-D3FC-42EB-ADDC-5BB3E2B8EEAE">
-               <body>The object class 'FarendIndications' …</body>
-            </ownedComment>
-            <ownedAttribute xmi:type="uml:Property"
-                            xmi:id="061D45B7-3472-40C5-9268-214E6A2C5986"
-                            name="farEndProblemTransmitToHere"
-                            visibility="private"
-                            isReadOnly="true">
-               <ownedComment xmi:type="uml:Comment"
-                             xmi:id="061D45B7-3472-40C5-9268-214E6A2C5986_comment"
-                             annotatedElement="061D45B7-3472-40C5-9268-214E6A2C5986">
-                  <body>Problem to transmit at the far end from the near end</body>
-               </ownedComment>
-               <type xmi:type="uml:PrimitiveType"
-                     href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-               <defaultValue xmi:type="uml:StringExpression"
-                             xmi:id="061D45B7-3472-40C5-9268-214E6A2C5986_default"
-                             symbol="not initialized"/>
-            </ownedAttribute>
-            <ownedAttribute xmi:type="uml:Property"
-                            xmi:id="9FE302DC-B192-4804-BC6B-ED056FB73A92"
-                            name="farEndProblemReceiveFromHere"
-                            visibility="private"
-                            isReadOnly="true">
-               <ownedComment xmi:type="uml:Comment"
-                             xmi:id="9FE302DC-B192-4804-BC6B-ED056FB73A92_comment"
-                             annotatedElement="9FE302DC-B192-4804-BC6B-ED056FB73A92">
-                  <body>Problem to receive at the far end from the near end</body>
-               </ownedComment>
-               <type xmi:type="uml:PrimitiveType"
-                     href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-               <defaultValue xmi:type="uml:StringExpression"
-                             xmi:id="9FE302DC-B192-4804-BC6B-ED056FB73A92_default"
-                             symbol="not initialized"/>
-            </ownedAttribute>
-            <ownedAttribute xmi:type="uml:Property"
-                            xmi:id="B74F7A0F-2DD9-4D17-869C-CBDB2881F428"
-                            name="farEndProblemTransmitAwayFromHere"
-                            visibility="private"
-                            isReadOnly="true">
-               <ownedComment xmi:type="uml:Comment"
-                             xmi:id="B74F7A0F-2DD9-4D17-869C-CBDB2881F428_comment"
-                             annotatedElement="B74F7A0F-2DD9-4D17-869C-CBDB2881F428">
-                  <body>Problem to transmit from the far end to away from the near end</body>
-               </ownedComment>
-               <type xmi:type="uml:PrimitiveType"
-                     href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-               <defaultValue xmi:type="uml:StringExpression"
-                             xmi:id="B74F7A0F-2DD9-4D17-869C-CBDB2881F428_default"
-                             symbol="not initialized"/>
-            </ownedAttribute>
-            <ownedAttribute xmi:type="uml:Property"
-                            xmi:id="B4D9524E-FE41-4C14-A498-9513640BAC67"
-                            name="farEndProblemReceiveTowardsHere"
-                            visibility="private"
-                            isReadOnly="true">
-               <ownedComment xmi:type="uml:Comment"
-                             xmi:id="B4D9524E-FE41-4C14-A498-9513640BAC67_comment"
-                             annotatedElement="B4D9524E-FE41-4C14-A498-9513640BAC67">
-                  <body>Problem to receive at the near end from the far end</body>
-               </ownedComment>
-               <type xmi:type="uml:PrimitiveType"
-                     href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-               <defaultValue xmi:type="uml:StringExpression"
-                             xmi:id="B4D9524E-FE41-4C14-A498-9513640BAC67_default"
-                             symbol=""/>
-            </ownedAttribute>
-         </packagedElement>
+          </ownedComment>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:StringExpression" xmi:id="559B5551-7A36-427A-B31E-E6BE434D8089_default" symbol="0"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="ACF82072-4EEC-491D-81F6-E71067EA44BE" name="channelReflectance" visibility="private" isReadOnly="true">
+          <ownedComment xmi:type="uml:Comment" xmi:id="ACF82072-4EEC-491D-81F6-E71067EA44BE_comment" annotatedElement="ACF82072-4EEC-491D-81F6-E71067EA44BE">
+            <body> This parameter describes  the amount of light reflected compared to the power of the light being transmitted down the fiber. It is caused by the light going through the change in index of refraction at the interface between the fiber (n=~1.5) and air (n=~1). Reflectance is primarily a problem with connectors but may also affect mechanical splices which contain an index matching gel to prevent reflectance.</body>
+          </ownedComment>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:StringExpression" xmi:id="ACF82072-4EEC-491D-81F6-E71067EA44BE_default" symbol="0"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="9B89500D-77D9-481F-AE55-403B588B79BD" name="discreteReflectance" visibility="private" isReadOnly="true">
+          <ownedComment xmi:type="uml:Comment" xmi:id="9B89500D-77D9-481F-AE55-403B588B79BD_comment" annotatedElement="9B89500D-77D9-481F-AE55-403B588B79BD">
+            <body>?</body>
+          </ownedComment>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:StringExpression" xmi:id="9B89500D-77D9-481F-AE55-403B588B79BD_default" symbol=""/>
+        </ownedAttribute>
       </packagedElement>
-      <packagedElement xmi:type="uml:Package"
-                       xmi:id="d1e1_notifications"
-                       name="Notifications"/>
-      <packagedElement xmi:type="uml:Package" xmi:id="d1e1_diagrams" name="Diagrams"/>
-      <packagedElement xmi:type="uml:Package"
-                       xmi:id="d1e1_associations"
-                       name="Associations"/>
-      <profileApplication xmi:type="uml:ProfileApplication" xmi:id="d1e1pa1">
-         <eAnnotations xmi:type="ecore:EAnnotation"
-                       xmi:id="_mfas8I20Eeid5cthly3JOg"
-                       source="PapyrusVersion">
-            <details xmi:type="ecore:EStringToStringMapEntry"
-                     xmi:id="_mfas8Y20Eeid5cthly3JOg"
-                     key="Version"
-                     value="0.0.9"/>
-            <details xmi:type="ecore:EStringToStringMapEntry"
-                     xmi:id="_mfas8o20Eeid5cthly3JOg"
-                     key="Comment"
-                     value="BITS encoding and bitsDefinition property added."/>
-            <details xmi:type="ecore:EStringToStringMapEntry"
-                     xmi:id="_mfas8420Eeid5cthly3JOg"
-                     key="Copyright"
-                     value=""/>
-            <details xmi:type="ecore:EStringToStringMapEntry"
-                     xmi:id="_mfas9I20Eeid5cthly3JOg"
-                     key="Date"
-                     value="2018-04-13"/>
-            <details xmi:type="ecore:EStringToStringMapEntry"
-                     xmi:id="_mfas9Y20Eeid5cthly3JOg"
-                     key="Author"
-                     value="IISOMI"/>
-         </eAnnotations>
-         <eAnnotations xmi:type="ecore:EAnnotation"
-                       xmi:id="d1e1pa1ea2"
-                       source="http://www.eclipse.org/uml2/2.0.0/UML">
-            <references xmi:type="ecore:EPackage"
-                        href="UmlProfiles/OpenInterfaceModelProfile/OpenInterfaceModel_Profile.profile.uml#_3NPRMD78EeiIisB6uOvKFA"/>
-         </eAnnotations>
-         <appliedProfile xmi:type="uml:Profile"
-                         href="UmlProfiles/OpenInterfaceModelProfile/OpenInterfaceModel_Profile.profile.uml#_UbM6ILbyEeaufdfMFhfy_A"/>
-      </profileApplication>
-      <profileApplication xmi:type="uml:ProfileApplication" xmi:id="d1e1pa2">
-         <eAnnotations xmi:type="ecore:EAnnotation"
-                       xmi:id="_mfbUAY20Eeid5cthly3JOg"
-                       source="PapyrusVersion">
-            <details xmi:type="ecore:EStringToStringMapEntry"
-                     xmi:id="_mfbUAo20Eeid5cthly3JOg"
-                     key="Version"
-                     value="0.2.14"/>
-            <details xmi:type="ecore:EStringToStringMapEntry"
-                     xmi:id="_mfbUA420Eeid5cthly3JOg"
-                     key="Comment"
-                     value="New stereotype OpenModelStatement added. It contains the generic information of the model and extends the Metaclass &#34;Model&#34;."/>
-            <details xmi:type="ecore:EStringToStringMapEntry"
-                     xmi:id="_mfbUBI20Eeid5cthly3JOg"
-                     key="Copyright"
-                     value=""/>
-            <details xmi:type="ecore:EStringToStringMapEntry"
-                     xmi:id="_mfbUBY20Eeid5cthly3JOg"
-                     key="Date"
-                     value="2018-04-13"/>
-            <details xmi:type="ecore:EStringToStringMapEntry"
-                     xmi:id="_mfbUBo20Eeid5cthly3JOg"
-                     key="Author"
-                     value="IISOMI"/>
-         </eAnnotations>
-         <eAnnotations xmi:type="ecore:EAnnotation"
-                       xmi:id="d1e1pa2ea2"
-                       source="http://www.eclipse.org/uml2/2.0.0/UML">
-            <references xmi:type="ecore:EPackage"
-                        href="UmlProfiles/OpenModelProfile/OpenModel_Profile.profile.uml#_S32LgD8HEeiIisB6uOvKFA"/>
-         </eAnnotations>
-         <appliedProfile xmi:type="uml:Profile"
-                         href="UmlProfiles/OpenModelProfile/OpenModel_Profile.profile.uml#_m1xqsHBgEd6FKu9XX1078A"/>
-      </profileApplication>
-      <profileApplication xmi:type="uml:ProfileApplication" xmi:id="d1e1pa3">
-         <eAnnotations xmi:type="ecore:EAnnotation"
-                       xmi:id="d1e1pa3ea1"
-                       source="PapyrusVersion">
-            <details xmi:type="ecore:EStringToStringMapEntry"
-                     xmi:id="d1e1pa3ea1d1"
-                     key="Version"
-                     value="0.0.4"/>
-            <details xmi:type="ecore:EStringToStringMapEntry"
-                     xmi:id="d1e1pa3ea1d2"
-                     key="Comment"
-                     value="Metaclasses Property and Stereotype added via &lt;Element Import&gt;."/>
-            <details xmi:type="ecore:EStringToStringMapEntry"
-                     xmi:id="d1e1pa3ea1d3"
-                     key="Copyright"
-                     value=""/>
-            <details xmi:type="ecore:EStringToStringMapEntry"
-                     xmi:id="d1e1pa3ea1d4"
-                     key="Date"
-                     value="2017-08-08"/>
-            <details xmi:type="ecore:EStringToStringMapEntry"
-                     xmi:id="d1e1pa3ea1d5"
-                     key="Author"
-                     value=""/>
-         </eAnnotations>
-         <eAnnotations xmi:type="ecore:EAnnotation"
-                       xmi:id="d1e1pa3ea2"
-                       source="http://www.eclipse.org/uml2/2.0.0/UML">
-            <references xmi:type="ecore:EPackage"
-                        href="UmlProfiles/ProfileLifecycleProfile/ProfileLifecycle_Profile.profile.uml#_AL3HsHweEee8oZaf2rRQlg"/>
-         </eAnnotations>
-         <appliedProfile xmi:type="uml:Profile"
-                         href="UmlProfiles/ProfileLifecycleProfile/ProfileLifecycle_Profile.profile.uml#_CBpGoEdZEearpawF38eisA"/>
-      </profileApplication>
-   </uml:Model>
-   <OpenModel_Profile:OpenModelClass xmi:id="d1e145_omc" base_Class="A0E5724C-F79D-4C3E-9EAA-F26A26F972C6"/>
-   <OpenInterfaceModel_Profile:OpenInterfaceModelClass xmi:id="d1e145_oic" base_Class="A0E5724C-F79D-4C3E-9EAA-F26A26F972C6"/>
-   <OpenModel_Profile:OpenModelClass xmi:id="d1e146_omc" base_Class="8EF409DF-1FED-4A48-B536-C5DC7A7880F7"/>
-   <OpenInterfaceModel_Profile:OpenInterfaceModelClass xmi:id="d1e146_oic" base_Class="8EF409DF-1FED-4A48-B536-C5DC7A7880F7"/>
-   <OpenModel_Profile:OpenModelClass xmi:id="d1e147_omc" base_Class="74D4D153-4E3D-4BB4-A7B5-1460CBD1DFA6"/>
-   <OpenInterfaceModel_Profile:OpenInterfaceModelClass xmi:id="d1e147_oic" base_Class="74D4D153-4E3D-4BB4-A7B5-1460CBD1DFA6"/>
-   <OpenModel_Profile:OpenModelClass xmi:id="d1e148_omc" base_Class="09899F35-84A0-42CD-A268-9C14267073A0"/>
-   <OpenInterfaceModel_Profile:OpenInterfaceModelClass xmi:id="d1e148_oic" base_Class="09899F35-84A0-42CD-A268-9C14267073A0"/>
-   <OpenModel_Profile:OpenModelClass xmi:id="d1e149_omc" base_Class="63659834-EC42-4B67-BD01-B54C3E4EDC30"/>
-   <OpenInterfaceModel_Profile:OpenInterfaceModelClass xmi:id="d1e149_oic" base_Class="63659834-EC42-4B67-BD01-B54C3E4EDC30"/>
-   <OpenModel_Profile:OpenModelClass xmi:id="d1e150_omc" base_Class="D8E04FB4-1C21-49B7-83A8-0C9C54643CB3"/>
-   <OpenInterfaceModel_Profile:OpenInterfaceModelClass xmi:id="d1e150_oic" base_Class="D8E04FB4-1C21-49B7-83A8-0C9C54643CB3"/>
-   <OpenModel_Profile:OpenModelClass xmi:id="d1e151_omc" base_Class="A0B62FC5-4B8D-4E8E-9621-B14237B0D77A"/>
-   <OpenInterfaceModel_Profile:OpenInterfaceModelClass xmi:id="d1e151_oic" base_Class="A0B62FC5-4B8D-4E8E-9621-B14237B0D77A"/>
-   <OpenModel_Profile:OpenModelClass xmi:id="d1e152_omc" base_Class="64C5A6A7-BAAE-4A8E-ADB6-C98E8D2FCF18"/>
-   <OpenInterfaceModel_Profile:OpenInterfaceModelClass xmi:id="d1e152_oic" base_Class="64C5A6A7-BAAE-4A8E-ADB6-C98E8D2FCF18"/>
-   <OpenModel_Profile:OpenModelClass xmi:id="d1e153_omc" base_Class="9D60033A-FC4F-4316-BF4C-E505F4B40450"/>
-   <OpenInterfaceModel_Profile:OpenInterfaceModelClass xmi:id="d1e153_oic" base_Class="9D60033A-FC4F-4316-BF4C-E505F4B40450"/>
-   <OpenModel_Profile:OpenModelClass xmi:id="d1e154_omc" base_Class="C46D0061-0EE1-4A4F-B00F-45C464F0E654"/>
-   <OpenInterfaceModel_Profile:OpenInterfaceModelClass xmi:id="d1e154_oic" base_Class="C46D0061-0EE1-4A4F-B00F-45C464F0E654"/>
-   <OpenModel_Profile:OpenModelClass xmi:id="d1e155_omc" base_Class="86E2D740-4BB4-4126-B02D-1ABB5B18361F"/>
-   <OpenInterfaceModel_Profile:OpenInterfaceModelClass xmi:id="d1e155_oic" base_Class="86E2D740-4BB4-4126-B02D-1ABB5B18361F"/>
-   <OpenModel_Profile:OpenModelClass xmi:id="d1e157_omc" base_Class="8EBF2406-6F73-4DB5-A54E-51B144B665F0"/>
-   <OpenInterfaceModel_Profile:OpenInterfaceModelClass xmi:id="d1e157_oic" base_Class="8EBF2406-6F73-4DB5-A54E-51B144B665F0"/>
-   <OpenModel_Profile:OpenModelClass xmi:id="d1e158_omc" base_Class="EE1F36F4-D749-4B93-9B07-7A9901DD4C6F"/>
-   <OpenInterfaceModel_Profile:OpenInterfaceModelClass xmi:id="d1e158_oic" base_Class="EE1F36F4-D749-4B93-9B07-7A9901DD4C6F"/>
-   <OpenModel_Profile:OpenModelClass xmi:id="d1e159_omc" base_Class="2D3D3BBB-50ED-4354-8AC1-D56735296E1B"/>
-   <OpenInterfaceModel_Profile:OpenInterfaceModelClass xmi:id="d1e159_oic" base_Class="2D3D3BBB-50ED-4354-8AC1-D56735296E1B"/>
-   <OpenModel_Profile:OpenModelClass xmi:id="d1e160_omc" base_Class="71AC1E15-E7C4-4773-A14D-F530557FB858"/>
-   <OpenInterfaceModel_Profile:OpenInterfaceModelClass xmi:id="d1e160_oic" base_Class="71AC1E15-E7C4-4773-A14D-F530557FB858"/>
-   <OpenModel_Profile:OpenModelClass xmi:id="d1e161_omc" base_Class="41DA8019-FE9C-41D2-8795-2FE1DD104D03"/>
-   <OpenInterfaceModel_Profile:OpenInterfaceModelClass xmi:id="d1e161_oic" base_Class="41DA8019-FE9C-41D2-8795-2FE1DD104D03"/>
-   <OpenModel_Profile:OpenModelClass xmi:id="d1e162_omc" base_Class="3791C1E8-BE67-4E46-838E-F4D30C35170D"/>
-   <OpenInterfaceModel_Profile:OpenInterfaceModelClass xmi:id="d1e162_oic" base_Class="3791C1E8-BE67-4E46-838E-F4D30C35170D"/>
-   <OpenModel_Profile:OpenModelClass xmi:id="d1e163_omc" base_Class="73CDF40F-5C6B-4745-9108-3E0E56E31B7D"/>
-   <OpenInterfaceModel_Profile:OpenInterfaceModelClass xmi:id="d1e163_oic" base_Class="73CDF40F-5C6B-4745-9108-3E0E56E31B7D"/>
-   <OpenModel_Profile:OpenModelClass xmi:id="d1e164_omc" base_Class="8B98F399-D3FC-42EB-ADDC-5BB3E2B8EEAE"/>
-   <OpenInterfaceModel_Profile:OpenInterfaceModelClass xmi:id="d1e164_oic" base_Class="8B98F399-D3FC-42EB-ADDC-5BB3E2B8EEAE"/>
-   <OpenModel_Profile:OpenModelAttribute xmi:id="d1e3_omc" base_Class="49D23776-5149-4005-83DE-9BF383FC108E"/>
-   <OpenInterfaceModel_Profile:OpenInterfaceModelAttribute xmi:id="d1e3_oic" base_Class="49D23776-5149-4005-83DE-9BF383FC108E"/>
-   <OpenModel_Profile:OpenModelAttribute xmi:id="d1e4_omc" base_Class="C8CE395D-19C0-42B3-9D4E-7FAD7E0C474E"/>
-   <OpenInterfaceModel_Profile:OpenInterfaceModelAttribute xmi:id="d1e4_oic" base_Class="C8CE395D-19C0-42B3-9D4E-7FAD7E0C474E"/>
-   <OpenModel_Profile:OpenModelAttribute xmi:id="d1e5_omc" base_Class="E0DD7B6F-7420-422E-B32D-12C5BFBACA07"/>
-   <OpenInterfaceModel_Profile:OpenInterfaceModelAttribute xmi:id="d1e5_oic" base_Class="E0DD7B6F-7420-422E-B32D-12C5BFBACA07"/>
-   <OpenModel_Profile:OpenModelAttribute xmi:id="d1e6_omc" base_Class="5616426F-B684-434C-8AFB-5B727A0E7B5D"/>
-   <OpenInterfaceModel_Profile:OpenInterfaceModelAttribute xmi:id="d1e6_oic" base_Class="5616426F-B684-434C-8AFB-5B727A0E7B5D"/>
-   <OpenModel_Profile:OpenModelAttribute xmi:id="d1e7_omc" base_Class="596314F5-D7F3-440B-9B7F-E817D366C258"/>
-   <OpenInterfaceModel_Profile:OpenInterfaceModelAttribute xmi:id="d1e7_oic" base_Class="596314F5-D7F3-440B-9B7F-E817D366C258"/>
-   <OpenModel_Profile:OpenModelAttribute xmi:id="d1e8_omc" base_Class="13200538-0BEB-46D1-BE7D-758007638F86"/>
-   <OpenInterfaceModel_Profile:OpenInterfaceModelAttribute xmi:id="d1e8_oic" base_Class="13200538-0BEB-46D1-BE7D-758007638F86"/>
-   <OpenModel_Profile:OpenModelAttribute xmi:id="d1e9_omc" base_Class="4A1AAC85-E11C-4763-84FF-7FE4D899EFDB"/>
-   <OpenInterfaceModel_Profile:OpenInterfaceModelAttribute xmi:id="d1e9_oic" base_Class="4A1AAC85-E11C-4763-84FF-7FE4D899EFDB"/>
-   <OpenModel_Profile:OpenModelAttribute xmi:id="d1e10_omc" base_Class="1284BFF3-E1AE-4B73-96F0-C16D6801AEB2"/>
-   <OpenInterfaceModel_Profile:OpenInterfaceModelAttribute xmi:id="d1e10_oic" base_Class="1284BFF3-E1AE-4B73-96F0-C16D6801AEB2"/>
-   <OpenModel_Profile:OpenModelAttribute xmi:id="d1e11_omc" base_Class="769C39C2-628B-4659-A606-2E44C53A66DA"/>
-   <OpenInterfaceModel_Profile:OpenInterfaceModelAttribute xmi:id="d1e11_oic" base_Class="769C39C2-628B-4659-A606-2E44C53A66DA"/>
-   <OpenModel_Profile:OpenModelAttribute xmi:id="d1e12_omc" base_Class="6082170D-42B1-4CB7-897E-852E7D34F5B5"/>
-   <OpenInterfaceModel_Profile:OpenInterfaceModelAttribute xmi:id="d1e12_oic" base_Class="6082170D-42B1-4CB7-897E-852E7D34F5B5"/>
-   <OpenModel_Profile:OpenModelAttribute xmi:id="d1e13_omc" base_Class="55945A0D-E3E4-4D4E-B4EF-1AC9E3C6975C"/>
-   <OpenInterfaceModel_Profile:OpenInterfaceModelAttribute xmi:id="d1e13_oic" base_Class="55945A0D-E3E4-4D4E-B4EF-1AC9E3C6975C"/>
-   <OpenModel_Profile:OpenModelAttribute xmi:id="d1e15_omc" base_Class="5B56AE7D-63C9-4B1D-B07E-5D5DB8CC494B"/>
-   <OpenInterfaceModel_Profile:OpenInterfaceModelAttribute xmi:id="d1e15_oic" base_Class="5B56AE7D-63C9-4B1D-B07E-5D5DB8CC494B"/>
-   <OpenModel_Profile:OpenModelAttribute xmi:id="d1e16_omc" base_Class="B405AF3B-4E82-44FD-B156-16632663E715"/>
-   <OpenInterfaceModel_Profile:OpenInterfaceModelAttribute xmi:id="d1e16_oic" base_Class="B405AF3B-4E82-44FD-B156-16632663E715"/>
-   <OpenModel_Profile:OpenModelAttribute xmi:id="d1e17_omc" base_Class="5D74135F-FBD2-491B-9977-34501636DC58"/>
-   <OpenInterfaceModel_Profile:OpenInterfaceModelAttribute xmi:id="d1e17_oic" base_Class="5D74135F-FBD2-491B-9977-34501636DC58"/>
-   <OpenModel_Profile:OpenModelAttribute xmi:id="d1e18_omc" base_Class="108AB039-B286-4ECD-B315-E78E34C472DE"/>
-   <OpenInterfaceModel_Profile:OpenInterfaceModelAttribute xmi:id="d1e18_oic" base_Class="108AB039-B286-4ECD-B315-E78E34C472DE"/>
-   <OpenModel_Profile:OpenModelAttribute xmi:id="d1e19_omc" base_Class="C92AA88D-09AD-4EBF-9B88-775C0030B492"/>
-   <OpenInterfaceModel_Profile:OpenInterfaceModelAttribute xmi:id="d1e19_oic" base_Class="C92AA88D-09AD-4EBF-9B88-775C0030B492"/>
-   <OpenModel_Profile:OpenModelAttribute xmi:id="d1e20_omc" base_Class="5BDD79C8-7ABE-4BEA-BFD5-633723C3E401"/>
-   <OpenInterfaceModel_Profile:OpenInterfaceModelAttribute xmi:id="d1e20_oic" base_Class="5BDD79C8-7ABE-4BEA-BFD5-633723C3E401"/>
-   <OpenModel_Profile:OpenModelAttribute xmi:id="d1e21_omc" base_Class="87FA64EC-DB8C-46EA-8B14-5A6A8A054282"/>
-   <OpenInterfaceModel_Profile:OpenInterfaceModelAttribute xmi:id="d1e21_oic" base_Class="87FA64EC-DB8C-46EA-8B14-5A6A8A054282"/>
-   <OpenModel_Profile:OpenModelAttribute xmi:id="d1e22_omc" base_Class="559B5551-7A36-427A-B31E-E6BE434D8089"/>
-   <OpenInterfaceModel_Profile:OpenInterfaceModelAttribute xmi:id="d1e22_oic" base_Class="559B5551-7A36-427A-B31E-E6BE434D8089"/>
-   <OpenModel_Profile:OpenModelAttribute xmi:id="d1e23_omc" base_Class="ACF82072-4EEC-491D-81F6-E71067EA44BE"/>
-   <OpenInterfaceModel_Profile:OpenInterfaceModelAttribute xmi:id="d1e23_oic" base_Class="ACF82072-4EEC-491D-81F6-E71067EA44BE"/>
-   <OpenModel_Profile:OpenModelAttribute xmi:id="d1e24_omc" base_Class="9B89500D-77D9-481F-AE55-403B588B79BD"/>
-   <OpenInterfaceModel_Profile:OpenInterfaceModelAttribute xmi:id="d1e24_oic" base_Class="9B89500D-77D9-481F-AE55-403B588B79BD"/>
-   <OpenModel_Profile:OpenModelAttribute xmi:id="d1e25_omc" base_Class="55ECFFFA-C657-4943-8968-5EDD8845B1EE"/>
-   <OpenInterfaceModel_Profile:OpenInterfaceModelAttribute xmi:id="d1e25_oic" base_Class="55ECFFFA-C657-4943-8968-5EDD8845B1EE"/>
-   <OpenModel_Profile:OpenModelAttribute xmi:id="d1e27_omc" base_Class="FCB86013-48EE-4E5C-8151-BAD27A20DD11"/>
-   <OpenInterfaceModel_Profile:OpenInterfaceModelAttribute xmi:id="d1e27_oic" base_Class="FCB86013-48EE-4E5C-8151-BAD27A20DD11"/>
-   <OpenModel_Profile:OpenModelAttribute xmi:id="d1e28_omc" base_Class="659148FD-C6B7-459C-ACDF-BDEC6EEB39F9"/>
-   <OpenInterfaceModel_Profile:OpenInterfaceModelAttribute xmi:id="d1e28_oic" base_Class="659148FD-C6B7-459C-ACDF-BDEC6EEB39F9"/>
-   <OpenModel_Profile:OpenModelAttribute xmi:id="d1e29_omc" base_Class="0AA47ABB-32AE-46D0-BE65-42C518BBC081"/>
-   <OpenInterfaceModel_Profile:OpenInterfaceModelAttribute xmi:id="d1e29_oic" base_Class="0AA47ABB-32AE-46D0-BE65-42C518BBC081"/>
-   <OpenModel_Profile:OpenModelAttribute xmi:id="d1e30_omc" base_Class="730CF117-C934-4F90-9E44-B2F35B5E1A51"/>
-   <OpenInterfaceModel_Profile:OpenInterfaceModelAttribute xmi:id="d1e30_oic" base_Class="730CF117-C934-4F90-9E44-B2F35B5E1A51"/>
-   <OpenModel_Profile:OpenModelAttribute xmi:id="d1e31_omc" base_Class="2718DFC4-4E3A-4218-B9BE-3AEFC57119E0"/>
-   <OpenInterfaceModel_Profile:OpenInterfaceModelAttribute xmi:id="d1e31_oic" base_Class="2718DFC4-4E3A-4218-B9BE-3AEFC57119E0"/>
-   <OpenModel_Profile:OpenModelAttribute xmi:id="d1e32_omc" base_Class="1E74942A-7F79-4E7E-92F7-F3CE993D3524"/>
-   <OpenInterfaceModel_Profile:OpenInterfaceModelAttribute xmi:id="d1e32_oic" base_Class="1E74942A-7F79-4E7E-92F7-F3CE993D3524"/>
-   <OpenModel_Profile:OpenModelAttribute xmi:id="d1e33_omc" base_Class="1ADDEF5A-A58D-4693-8055-70B9260595C3"/>
-   <OpenInterfaceModel_Profile:OpenInterfaceModelAttribute xmi:id="d1e33_oic" base_Class="1ADDEF5A-A58D-4693-8055-70B9260595C3"/>
-   <OpenModel_Profile:OpenModelAttribute xmi:id="d1e34_omc" base_Class="E643C7A8-4F81-4837-9B4D-8924A89C3565"/>
-   <OpenInterfaceModel_Profile:OpenInterfaceModelAttribute xmi:id="d1e34_oic" base_Class="E643C7A8-4F81-4837-9B4D-8924A89C3565"/>
-   <OpenModel_Profile:OpenModelAttribute xmi:id="d1e35_omc" base_Class="3E80D61F-91FF-4258-AF6B-3977F4AECFA5"/>
-   <OpenInterfaceModel_Profile:OpenInterfaceModelAttribute xmi:id="d1e35_oic" base_Class="3E80D61F-91FF-4258-AF6B-3977F4AECFA5"/>
-   <OpenModel_Profile:OpenModelAttribute xmi:id="d1e36_omc" base_Class="5A5797BF-BDBE-4BE0-9029-D7E7F2A113C2"/>
-   <OpenInterfaceModel_Profile:OpenInterfaceModelAttribute xmi:id="d1e36_oic" base_Class="5A5797BF-BDBE-4BE0-9029-D7E7F2A113C2"/>
-   <OpenModel_Profile:OpenModelAttribute xmi:id="d1e37_omc" base_Class="B8BF0F3E-8158-4677-A298-90CA8E5D6B78"/>
-   <OpenInterfaceModel_Profile:OpenInterfaceModelAttribute xmi:id="d1e37_oic" base_Class="B8BF0F3E-8158-4677-A298-90CA8E5D6B78"/>
-   <OpenModel_Profile:OpenModelAttribute xmi:id="d1e39_omc" base_Class="918CAF95-EC15-403E-B2E7-BD4E4EC03089"/>
-   <OpenInterfaceModel_Profile:OpenInterfaceModelAttribute xmi:id="d1e39_oic" base_Class="918CAF95-EC15-403E-B2E7-BD4E4EC03089"/>
-   <OpenModel_Profile:OpenModelAttribute xmi:id="d1e40_omc" base_Class="CA2306CC-B1A7-4DE6-B88D-7BA8357BA198"/>
-   <OpenInterfaceModel_Profile:OpenInterfaceModelAttribute xmi:id="d1e40_oic" base_Class="CA2306CC-B1A7-4DE6-B88D-7BA8357BA198"/>
-   <OpenModel_Profile:OpenModelAttribute xmi:id="d1e41_omc" base_Class="14976E2B-D858-4328-A851-FE600588BD06"/>
-   <OpenInterfaceModel_Profile:OpenInterfaceModelAttribute xmi:id="d1e41_oic" base_Class="14976E2B-D858-4328-A851-FE600588BD06"/>
-   <OpenModel_Profile:OpenModelAttribute xmi:id="d1e42_omc" base_Class="E2BEC4F0-C10E-4217-9569-878D1DE166CA"/>
-   <OpenInterfaceModel_Profile:OpenInterfaceModelAttribute xmi:id="d1e42_oic" base_Class="E2BEC4F0-C10E-4217-9569-878D1DE166CA"/>
-   <OpenModel_Profile:OpenModelAttribute xmi:id="d1e43_omc" base_Class="22C4FCAC-D25D-4060-A323-DED32D95CC36"/>
-   <OpenInterfaceModel_Profile:OpenInterfaceModelAttribute xmi:id="d1e43_oic" base_Class="22C4FCAC-D25D-4060-A323-DED32D95CC36"/>
-   <OpenModel_Profile:OpenModelAttribute xmi:id="d1e44_omc" base_Class="73AE8CDE-E79D-4560-A36E-3DAEBD844E5C"/>
-   <OpenInterfaceModel_Profile:OpenInterfaceModelAttribute xmi:id="d1e44_oic" base_Class="73AE8CDE-E79D-4560-A36E-3DAEBD844E5C"/>
-   <OpenModel_Profile:OpenModelAttribute xmi:id="d1e45_omc" base_Class="A742964E-2C3E-435C-BF9C-CE8DE594E6E7"/>
-   <OpenInterfaceModel_Profile:OpenInterfaceModelAttribute xmi:id="d1e45_oic" base_Class="A742964E-2C3E-435C-BF9C-CE8DE594E6E7"/>
-   <OpenModel_Profile:OpenModelAttribute xmi:id="d1e46_omc" base_Class="25E56AEB-B518-42E1-9E37-7542DFDD7B10"/>
-   <OpenInterfaceModel_Profile:OpenInterfaceModelAttribute xmi:id="d1e46_oic" base_Class="25E56AEB-B518-42E1-9E37-7542DFDD7B10"/>
-   <OpenModel_Profile:OpenModelAttribute xmi:id="d1e47_omc" base_Class="B7C11997-D705-4DD6-9AAD-3DB6067A9E91"/>
-   <OpenInterfaceModel_Profile:OpenInterfaceModelAttribute xmi:id="d1e47_oic" base_Class="B7C11997-D705-4DD6-9AAD-3DB6067A9E91"/>
-   <OpenModel_Profile:OpenModelAttribute xmi:id="d1e48_omc" base_Class="F162CD3A-B644-4BB3-A3A1-2814F7914056"/>
-   <OpenInterfaceModel_Profile:OpenInterfaceModelAttribute xmi:id="d1e48_oic" base_Class="F162CD3A-B644-4BB3-A3A1-2814F7914056"/>
-   <OpenModel_Profile:OpenModelAttribute xmi:id="d1e49_omc" base_Class="B5EE705D-B28F-4FF8-BCAE-6C2D6AFBA6A1"/>
-   <OpenInterfaceModel_Profile:OpenInterfaceModelAttribute xmi:id="d1e49_oic" base_Class="B5EE705D-B28F-4FF8-BCAE-6C2D6AFBA6A1"/>
-   <OpenModel_Profile:OpenModelAttribute xmi:id="d1e51_omc" base_Class="4E6E1F7F-3DFE-4057-9BDA-1B7BE0206E59"/>
-   <OpenInterfaceModel_Profile:OpenInterfaceModelAttribute xmi:id="d1e51_oic" base_Class="4E6E1F7F-3DFE-4057-9BDA-1B7BE0206E59"/>
-   <OpenModel_Profile:OpenModelAttribute xmi:id="d1e52_omc" base_Class="88752A28-4B5B-4952-B3C2-4B2714BBD957"/>
-   <OpenInterfaceModel_Profile:OpenInterfaceModelAttribute xmi:id="d1e52_oic" base_Class="88752A28-4B5B-4952-B3C2-4B2714BBD957"/>
-   <OpenModel_Profile:OpenModelAttribute xmi:id="d1e53_omc" base_Class="075D21BF-C986-4278-9664-280D3A9DD2B4"/>
-   <OpenInterfaceModel_Profile:OpenInterfaceModelAttribute xmi:id="d1e53_oic" base_Class="075D21BF-C986-4278-9664-280D3A9DD2B4"/>
-   <OpenModel_Profile:OpenModelAttribute xmi:id="d1e54_omc" base_Class="3B2A9E53-C65B-4EA8-8286-AF0ED633DC2E"/>
-   <OpenInterfaceModel_Profile:OpenInterfaceModelAttribute xmi:id="d1e54_oic" base_Class="3B2A9E53-C65B-4EA8-8286-AF0ED633DC2E"/>
-   <OpenModel_Profile:OpenModelAttribute xmi:id="d1e55_omc" base_Class="4B8C73E8-0D0F-4FB6-B588-E38CBF9BCC0B"/>
-   <OpenInterfaceModel_Profile:OpenInterfaceModelAttribute xmi:id="d1e55_oic" base_Class="4B8C73E8-0D0F-4FB6-B588-E38CBF9BCC0B"/>
-   <OpenModel_Profile:OpenModelAttribute xmi:id="d1e56_omc" base_Class="439A93E5-620E-490C-9D47-CEF95944C22A"/>
-   <OpenInterfaceModel_Profile:OpenInterfaceModelAttribute xmi:id="d1e56_oic" base_Class="439A93E5-620E-490C-9D47-CEF95944C22A"/>
-   <OpenModel_Profile:OpenModelAttribute xmi:id="d1e57_omc" base_Class="BB0EC746-6386-4622-89A8-19542E81019D"/>
-   <OpenInterfaceModel_Profile:OpenInterfaceModelAttribute xmi:id="d1e57_oic" base_Class="BB0EC746-6386-4622-89A8-19542E81019D"/>
-   <OpenModel_Profile:OpenModelAttribute xmi:id="d1e58_omc" base_Class="F19BE98B-2AF5-46BB-9B11-67551997E645"/>
-   <OpenInterfaceModel_Profile:OpenInterfaceModelAttribute xmi:id="d1e58_oic" base_Class="F19BE98B-2AF5-46BB-9B11-67551997E645"/>
-   <OpenModel_Profile:OpenModelAttribute xmi:id="d1e59_omc" base_Class="BCDD8392-303E-4CA6-A1D4-0DE1E50367F0"/>
-   <OpenInterfaceModel_Profile:OpenInterfaceModelAttribute xmi:id="d1e59_oic" base_Class="BCDD8392-303E-4CA6-A1D4-0DE1E50367F0"/>
-   <OpenModel_Profile:OpenModelAttribute xmi:id="d1e60_omc" base_Class="579D0AAD-4F55-4EC3-8EED-BE349FC2F540"/>
-   <OpenInterfaceModel_Profile:OpenInterfaceModelAttribute xmi:id="d1e60_oic" base_Class="579D0AAD-4F55-4EC3-8EED-BE349FC2F540"/>
-   <OpenModel_Profile:OpenModelAttribute xmi:id="d1e61_omc" base_Class="FDBCFC91-3438-4349-AF57-DB6202AAB316"/>
-   <OpenInterfaceModel_Profile:OpenInterfaceModelAttribute xmi:id="d1e61_oic" base_Class="FDBCFC91-3438-4349-AF57-DB6202AAB316"/>
-   <OpenModel_Profile:OpenModelAttribute xmi:id="d1e63_omc" base_Class="E0BCB6B3-51C4-450C-87B7-26111946E99C"/>
-   <OpenInterfaceModel_Profile:OpenInterfaceModelAttribute xmi:id="d1e63_oic" base_Class="E0BCB6B3-51C4-450C-87B7-26111946E99C"/>
-   <OpenModel_Profile:OpenModelAttribute xmi:id="d1e64_omc" base_Class="A44C9380-80E6-4B04-997A-9E0A215C06FF"/>
-   <OpenInterfaceModel_Profile:OpenInterfaceModelAttribute xmi:id="d1e64_oic" base_Class="A44C9380-80E6-4B04-997A-9E0A215C06FF"/>
-   <OpenModel_Profile:OpenModelAttribute xmi:id="d1e65_omc" base_Class="E3473CD6-DB98-4F36-99D3-C2B104A7CE38"/>
-   <OpenInterfaceModel_Profile:OpenInterfaceModelAttribute xmi:id="d1e65_oic" base_Class="E3473CD6-DB98-4F36-99D3-C2B104A7CE38"/>
-   <OpenModel_Profile:OpenModelAttribute xmi:id="d1e66_omc" base_Class="AD821561-7446-4469-A34F-24ADBA293352"/>
-   <OpenInterfaceModel_Profile:OpenInterfaceModelAttribute xmi:id="d1e66_oic" base_Class="AD821561-7446-4469-A34F-24ADBA293352"/>
-   <OpenModel_Profile:OpenModelAttribute xmi:id="d1e67_omc" base_Class="36E45988-CFF4-4002-A4EA-91FC2AE42819"/>
-   <OpenInterfaceModel_Profile:OpenInterfaceModelAttribute xmi:id="d1e67_oic" base_Class="36E45988-CFF4-4002-A4EA-91FC2AE42819"/>
-   <OpenModel_Profile:OpenModelAttribute xmi:id="d1e68_omc" base_Class="121A581F-C138-4877-9495-98C794D98072"/>
-   <OpenInterfaceModel_Profile:OpenInterfaceModelAttribute xmi:id="d1e68_oic" base_Class="121A581F-C138-4877-9495-98C794D98072"/>
-   <OpenModel_Profile:OpenModelAttribute xmi:id="d1e69_omc" base_Class="73EA081B-DABB-4220-9543-3E053B42A2D6"/>
-   <OpenInterfaceModel_Profile:OpenInterfaceModelAttribute xmi:id="d1e69_oic" base_Class="73EA081B-DABB-4220-9543-3E053B42A2D6"/>
-   <OpenModel_Profile:OpenModelAttribute xmi:id="d1e70_omc" base_Class="061D45B7-3472-40C5-9268-214E6A2C5986"/>
-   <OpenInterfaceModel_Profile:OpenInterfaceModelAttribute xmi:id="d1e70_oic" base_Class="061D45B7-3472-40C5-9268-214E6A2C5986"/>
-   <OpenModel_Profile:OpenModelAttribute xmi:id="d1e71_omc" base_Class="9FE302DC-B192-4804-BC6B-ED056FB73A92"/>
-   <OpenInterfaceModel_Profile:OpenInterfaceModelAttribute xmi:id="d1e71_oic" base_Class="9FE302DC-B192-4804-BC6B-ED056FB73A92"/>
-   <OpenModel_Profile:OpenModelAttribute xmi:id="d1e72_omc" base_Class="B74F7A0F-2DD9-4D17-869C-CBDB2881F428"/>
-   <OpenInterfaceModel_Profile:OpenInterfaceModelAttribute xmi:id="d1e72_oic" base_Class="B74F7A0F-2DD9-4D17-869C-CBDB2881F428"/>
-   <OpenModel_Profile:OpenModelAttribute xmi:id="d1e73_omc" base_Class="B4D9524E-FE41-4C14-A498-9513640BAC67"/>
-   <OpenInterfaceModel_Profile:OpenInterfaceModelAttribute xmi:id="d1e73_oic" base_Class="B4D9524E-FE41-4C14-A498-9513640BAC67"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="64C5A6A7-BAAE-4A8E-ADB6-C98E8D2FCF18" name="ChannelPropertiesChannelLoss">
+        <ownedComment xmi:type="uml:Comment" xmi:id="64C5A6A7-BAAE-4A8E-ADB6-C98E8D2FCF18_comment" annotatedElement="64C5A6A7-BAAE-4A8E-ADB6-C98E8D2FCF18">
+          <body>The object class 'ChannelPropertiesChannelLoss' …</body>
+        </ownedComment>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="55ECFFFA-C657-4943-8968-5EDD8845B1EE" name="channelAttenuation" visibility="private" isReadOnly="true">
+          <ownedComment xmi:type="uml:Comment" xmi:id="55ECFFFA-C657-4943-8968-5EDD8845B1EE_comment" annotatedElement="55ECFFFA-C657-4943-8968-5EDD8845B1EE">
+            <body>Maximum distance a signal can travel and still be picked up at receiver.</body>
+          </ownedComment>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:StringExpression" xmi:id="55ECFFFA-C657-4943-8968-5EDD8845B1EE_default" symbol="0"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="9D60033A-FC4F-4316-BF4C-E505F4B40450" name="ChannelPropertiesChannelDispersion">
+        <ownedComment xmi:type="uml:Comment" xmi:id="9D60033A-FC4F-4316-BF4C-E505F4B40450_comment" annotatedElement="9D60033A-FC4F-4316-BF4C-E505F4B40450">
+          <body>The object class 'ChannelPropertiesChannelDispersion' …</body>
+        </ownedComment>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="FCB86013-48EE-4E5C-8151-BAD27A20DD11" name="channelDifferentialGroupDelay" visibility="private" isReadOnly="true">
+          <ownedComment xmi:type="uml:Comment" xmi:id="FCB86013-48EE-4E5C-8151-BAD27A20DD11_comment" annotatedElement="FCB86013-48EE-4E5C-8151-BAD27A20DD11">
+            <body>This parameter indicates the difference in propagation time between the two single modes X and Y polarizations</body>
+          </ownedComment>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:StringExpression" xmi:id="FCB86013-48EE-4E5C-8151-BAD27A20DD11_default" symbol="0"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="659148FD-C6B7-459C-ACDF-BDEC6EEB39F9" name="chromaticDispersionCharacteristic" visibility="private" isReadOnly="true">
+          <ownedComment xmi:type="uml:Comment" xmi:id="659148FD-C6B7-459C-ACDF-BDEC6EEB39F9_comment" annotatedElement="659148FD-C6B7-459C-ACDF-BDEC6EEB39F9">
+            <body>This parameter describes the spreading of a light pulse as it travels down a fiber when  light pulses launched close together (high data rates) spread too much and result in errors and a loss of information</body>
+          </ownedComment>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:StringExpression" xmi:id="659148FD-C6B7-459C-ACDF-BDEC6EEB39F9_default" symbol="0"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="0AA47ABB-32AE-46D0-BE65-42C518BBC081" name="polarizationModeDispersion" visibility="private" isReadOnly="true">
+          <ownedComment xmi:type="uml:Comment" xmi:id="0AA47ABB-32AE-46D0-BE65-42C518BBC081_comment" annotatedElement="0AA47ABB-32AE-46D0-BE65-42C518BBC081">
+            <body>This parameter describes  a form of modal dispersion where two different polarizations of light in a waveguide, which normally travel at the same speed, travel at different speeds due to random imperfections and asymmetries, causing random spreading of optical pulses. Unless it is compensated, which is difficult, this ultimately limits the rate at which data can be transmitted over a fiber.</body>
+          </ownedComment>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:StringExpression" xmi:id="0AA47ABB-32AE-46D0-BE65-42C518BBC081_default" symbol="0"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="C46D0061-0EE1-4A4F-B00F-45C464F0E654" name="ChannelPropertiesChannelSignalCrosstalkProperties">
+        <ownedComment xmi:type="uml:Comment" xmi:id="C46D0061-0EE1-4A4F-B00F-45C464F0E654_comment" annotatedElement="C46D0061-0EE1-4A4F-B00F-45C464F0E654">
+          <body>The object class 'ChannelPropertiesChannelSignalCrosstalkProperties' …</body>
+        </ownedComment>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="730CF117-C934-4F90-9E44-B2F35B5E1A51" name="interChannelCrosstalk" visibility="private" isReadOnly="true">
+          <ownedComment xmi:type="uml:Comment" xmi:id="730CF117-C934-4F90-9E44-B2F35B5E1A51_comment" annotatedElement="730CF117-C934-4F90-9E44-B2F35B5E1A51">
+            <body>This parameter describes crosstalk between channels in a multiplex system.</body>
+          </ownedComment>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:StringExpression" xmi:id="730CF117-C934-4F90-9E44-B2F35B5E1A51_default" symbol="0"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="2718DFC4-4E3A-4218-B9BE-3AEFC57119E0" name="interferometricCrosstalk" visibility="private" isReadOnly="true">
+          <ownedComment xmi:type="uml:Comment" xmi:id="2718DFC4-4E3A-4218-B9BE-3AEFC57119E0_comment" annotatedElement="2718DFC4-4E3A-4218-B9BE-3AEFC57119E0">
+            <body>This parameter describes Interferometric noise, arising from the optical interference of the desired information signal and parasitic crosstalk waveforms at the detector, afflicts practically all optical networks, inducing potentially unacceptable power penalties and bit-error-rate floors. Interferometric noise arises, for example, from multipaths in  the network from source to detector.</body>
+          </ownedComment>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:StringExpression" xmi:id="2718DFC4-4E3A-4218-B9BE-3AEFC57119E0_default" symbol="0"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="86E2D740-4BB4-4126-B02D-1ABB5B18361F" name="LaserProperties">
+        <ownedComment xmi:type="uml:Comment" xmi:id="86E2D740-4BB4-4126-B02D-1ABB5B18361F_comment" annotatedElement="86E2D740-4BB4-4126-B02D-1ABB5B18361F">
+          <body>The object class 'LaserProperties' …</body>
+        </ownedComment>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="1E74942A-7F79-4E7E-92F7-F3CE993D3524" name="laserApplicationType " visibility="private">
+          <ownedComment xmi:type="uml:Comment" xmi:id="1E74942A-7F79-4E7E-92F7-F3CE993D3524_comment" annotatedElement="1E74942A-7F79-4E7E-92F7-F3CE993D3524">
+            <body>The type of laser, its operational wavelengths, and its applications</body>
+          </ownedComment>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:StringExpression" xmi:id="1E74942A-7F79-4E7E-92F7-F3CE993D3524_default" symbol="not initialized"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="1ADDEF5A-A58D-4693-8055-70B9260595C3" name="laserBiasCurrent" visibility="private">
+          <ownedComment xmi:type="uml:Comment" xmi:id="1ADDEF5A-A58D-4693-8055-70B9260595C3_comment" annotatedElement="1ADDEF5A-A58D-4693-8055-70B9260595C3">
+            <body>The Bias current of the laser that is the medium polarization current of the laser</body>
+          </ownedComment>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:StringExpression" xmi:id="1ADDEF5A-A58D-4693-8055-70B9260595C3_default" symbol="0"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="E643C7A8-4F81-4837-9B4D-8924A89C3565" name="laserTemperature " visibility="private" isReadOnly="true">
+          <ownedComment xmi:type="uml:Comment" xmi:id="E643C7A8-4F81-4837-9B4D-8924A89C3565_comment" annotatedElement="E643C7A8-4F81-4837-9B4D-8924A89C3565">
+            <body>The temperature of the laser</body>
+          </ownedComment>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:StringExpression" xmi:id="E643C7A8-4F81-4837-9B4D-8924A89C3565_default" symbol="0"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="8EBF2406-6F73-4DB5-A54E-51B144B665F0" name="ModulatedLightProperties">
+        <ownedComment xmi:type="uml:Comment" xmi:id="8EBF2406-6F73-4DB5-A54E-51B144B665F0_comment" annotatedElement="8EBF2406-6F73-4DB5-A54E-51B144B665F0">
+          <body>The object class 'ModulatedLightProperties' …</body>
+        </ownedComment>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="3E80D61F-91FF-4258-AF6B-3977F4AECFA5" name="spectralWidth " visibility="private" isReadOnly="true">
+          <ownedComment xmi:type="uml:Comment" xmi:id="3E80D61F-91FF-4258-AF6B-3977F4AECFA5_comment" annotatedElement="3E80D61F-91FF-4258-AF6B-3977F4AECFA5">
+            <body>The wavelength interval over which the magnitude of all spectral components is equal to or greater than a specified fraction of the magnitude of the component having the maximum value</body>
+          </ownedComment>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:StringExpression" xmi:id="3E80D61F-91FF-4258-AF6B-3977F4AECFA5_default" symbol="0"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="EE1F36F4-D749-4B93-9B07-7A9901DD4C6F" name="ReceiverProperties">
+        <ownedComment xmi:type="uml:Comment" xmi:id="EE1F36F4-D749-4B93-9B07-7A9901DD4C6F_comment" annotatedElement="EE1F36F4-D749-4B93-9B07-7A9901DD4C6F">
+          <body>The object class 'ReceiverProperties' …</body>
+        </ownedComment>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="5A5797BF-BDBE-4BE0-9029-D7E7F2A113C2" name="modulationApproach " visibility="private">
+          <ownedComment xmi:type="uml:Comment" xmi:id="5A5797BF-BDBE-4BE0-9029-D7E7F2A113C2_comment" annotatedElement="5A5797BF-BDBE-4BE0-9029-D7E7F2A113C2">
+            <body>This parameter defines the modulation used at the source</body>
+          </ownedComment>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:StringExpression" xmi:id="5A5797BF-BDBE-4BE0-9029-D7E7F2A113C2_default" symbol="not initialized"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="B8BF0F3E-8158-4677-A298-90CA8E5D6B78" name="receiverEquivalentSensitivity" visibility="private" isReadOnly="true">
+          <ownedComment xmi:type="uml:Comment" xmi:id="B8BF0F3E-8158-4677-A298-90CA8E5D6B78_comment" annotatedElement="B8BF0F3E-8158-4677-A298-90CA8E5D6B78">
+            <body>?</body>
+          </ownedComment>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:StringExpression" xmi:id="B8BF0F3E-8158-4677-A298-90CA8E5D6B78_default" symbol=""/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="918CAF95-EC15-403E-B2E7-BD4E4EC03089" name="receiverSensitivity" visibility="private" isReadOnly="true">
+          <ownedComment xmi:type="uml:Comment" xmi:id="918CAF95-EC15-403E-B2E7-BD4E4EC03089_comment" annotatedElement="918CAF95-EC15-403E-B2E7-BD4E4EC03089">
+            <body>Receiver sensitivity is the lowest power level at which the receiver can detect a signal and demodulate data.</body>
+          </ownedComment>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:StringExpression" xmi:id="918CAF95-EC15-403E-B2E7-BD4E4EC03089_default" symbol="0"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="CA2306CC-B1A7-4DE6-B88D-7BA8357BA198" name="receiverReflectance" visibility="private" isReadOnly="true">
+          <ownedComment xmi:type="uml:Comment" xmi:id="CA2306CC-B1A7-4DE6-B88D-7BA8357BA198_comment" annotatedElement="CA2306CC-B1A7-4DE6-B88D-7BA8357BA198">
+            <body>Fraction of incident electromagnetic power that is reflected at an interface of the receiver</body>
+          </ownedComment>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:StringExpression" xmi:id="CA2306CC-B1A7-4DE6-B88D-7BA8357BA198_default" symbol="0"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="2D3D3BBB-50ED-4354-8AC1-D56735296E1B" name="PowerProperties">
+        <ownedComment xmi:type="uml:Comment" xmi:id="2D3D3BBB-50ED-4354-8AC1-D56735296E1B_comment" annotatedElement="2D3D3BBB-50ED-4354-8AC1-D56735296E1B">
+          <body>The object class 'PowerProperties' …</body>
+        </ownedComment>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="14976E2B-D858-4328-A851-FE600588BD06" name="totalPower" visibility="private" isReadOnly="true">
+          <ownedComment xmi:type="uml:Comment" xmi:id="14976E2B-D858-4328-A851-FE600588BD06_comment" annotatedElement="14976E2B-D858-4328-A851-FE600588BD06">
+            <body>The total power at any point in a channel including TX and RX</body>
+          </ownedComment>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:StringExpression" xmi:id="14976E2B-D858-4328-A851-FE600588BD06_default" symbol="0"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="E2BEC4F0-C10E-4217-9569-878D1DE166CA" name="powerSpectralDensity" visibility="private" isReadOnly="true">
+          <ownedComment xmi:type="uml:Comment" xmi:id="E2BEC4F0-C10E-4217-9569-878D1DE166CA_comment" annotatedElement="E2BEC4F0-C10E-4217-9569-878D1DE166CA">
+            <body>This describes how power of a signal  is distributed over frequency</body>
+          </ownedComment>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:StringExpression" xmi:id="E2BEC4F0-C10E-4217-9569-878D1DE166CA_default" symbol="0"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="71AC1E15-E7C4-4773-A14D-F530557FB858" name="FecProperties">
+        <ownedComment xmi:type="uml:Comment" xmi:id="71AC1E15-E7C4-4773-A14D-F530557FB858_comment" annotatedElement="71AC1E15-E7C4-4773-A14D-F530557FB858">
+          <body>The object class 'FecProperties' …</body>
+        </ownedComment>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="22C4FCAC-D25D-4060-A323-DED32D95CC36" name="preFecBer" visibility="private" isReadOnly="true">
+          <ownedComment xmi:type="uml:Comment" xmi:id="22C4FCAC-D25D-4060-A323-DED32D95CC36_comment" annotatedElement="22C4FCAC-D25D-4060-A323-DED32D95CC36">
+            <body>counter: bit error rate after correction by FEC</body>
+          </ownedComment>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:StringExpression" xmi:id="22C4FCAC-D25D-4060-A323-DED32D95CC36_default" symbol="0"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="73AE8CDE-E79D-4560-A36E-3DAEBD844E5C" name="postFecBer" visibility="private" isReadOnly="true">
+          <ownedComment xmi:type="uml:Comment" xmi:id="73AE8CDE-E79D-4560-A36E-3DAEBD844E5C_comment" annotatedElement="73AE8CDE-E79D-4560-A36E-3DAEBD844E5C">
+            <body>Counter: bit error rate after correction by FEC</body>
+          </ownedComment>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:StringExpression" xmi:id="73AE8CDE-E79D-4560-A36E-3DAEBD844E5C_default" symbol="0"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="A742964E-2C3E-435C-BF9C-CE8DE594E6E7" name="uncorrectableBits" visibility="private" isReadOnly="true">
+          <ownedComment xmi:type="uml:Comment" xmi:id="A742964E-2C3E-435C-BF9C-CE8DE594E6E7_comment" annotatedElement="A742964E-2C3E-435C-BF9C-CE8DE594E6E7">
+            <body>Bits that could not be corrected by FEC</body>
+          </ownedComment>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:StringExpression" xmi:id="A742964E-2C3E-435C-BF9C-CE8DE594E6E7_default" symbol="0"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="25E56AEB-B518-42E1-9E37-7542DFDD7B10" name="uncorrectableBytes" visibility="private" isReadOnly="true">
+          <ownedComment xmi:type="uml:Comment" xmi:id="25E56AEB-B518-42E1-9E37-7542DFDD7B10_comment" annotatedElement="25E56AEB-B518-42E1-9E37-7542DFDD7B10">
+            <body>Bytes that could not be corrected by FEC</body>
+          </ownedComment>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:StringExpression" xmi:id="25E56AEB-B518-42E1-9E37-7542DFDD7B10_default" symbol="0"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="B7C11997-D705-4DD6-9AAD-3DB6067A9E91" name="correctedBytes" visibility="private" isReadOnly="true">
+          <ownedComment xmi:type="uml:Comment" xmi:id="B7C11997-D705-4DD6-9AAD-3DB6067A9E91_comment" annotatedElement="B7C11997-D705-4DD6-9AAD-3DB6067A9E91">
+            <body>Bytes corrected between those that were received corrupted</body>
+          </ownedComment>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:StringExpression" xmi:id="B7C11997-D705-4DD6-9AAD-3DB6067A9E91_default" symbol="0"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="F162CD3A-B644-4BB3-A3A1-2814F7914056" name="correctedBits" visibility="private" isReadOnly="true">
+          <ownedComment xmi:type="uml:Comment" xmi:id="F162CD3A-B644-4BB3-A3A1-2814F7914056_comment" annotatedElement="F162CD3A-B644-4BB3-A3A1-2814F7914056">
+            <body>BytBits corrected between those that were received corrupted</body>
+          </ownedComment>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:StringExpression" xmi:id="F162CD3A-B644-4BB3-A3A1-2814F7914056_default" symbol="0"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="B5EE705D-B28F-4FF8-BCAE-6C2D6AFBA6A1" name="qualityValue" visibility="private" isReadOnly="true">
+          <ownedComment xmi:type="uml:Comment" xmi:id="B5EE705D-B28F-4FF8-BCAE-6C2D6AFBA6A1_comment" annotatedElement="B5EE705D-B28F-4FF8-BCAE-6C2D6AFBA6A1">
+            <body>% of errors that were corrected in Bits or Bytes</body>
+          </ownedComment>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:StringExpression" xmi:id="B5EE705D-B28F-4FF8-BCAE-6C2D6AFBA6A1_default" symbol="0"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="41DA8019-FE9C-41D2-8795-2FE1DD104D03" name="ChannelTrace">
+        <ownedComment xmi:type="uml:Comment" xmi:id="41DA8019-FE9C-41D2-8795-2FE1DD104D03_comment" annotatedElement="41DA8019-FE9C-41D2-8795-2FE1DD104D03">
+          <body>The object class 'ChannelTrace' …</body>
+        </ownedComment>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="4E6E1F7F-3DFE-4057-9BDA-1B7BE0206E59" name="traceTransferMethod" visibility="private" isReadOnly="true">
+          <ownedComment xmi:type="uml:Comment" xmi:id="4E6E1F7F-3DFE-4057-9BDA-1B7BE0206E59_comment" annotatedElement="4E6E1F7F-3DFE-4057-9BDA-1B7BE0206E59">
+            <body>Method based on the transmission of a trace in order to identify the right transmitter in the channel</body>
+          </ownedComment>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:StringExpression" xmi:id="4E6E1F7F-3DFE-4057-9BDA-1B7BE0206E59_default" symbol="not initialized"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="88752A28-4B5B-4952-B3C2-4B2714BBD957" name="traceTransmitted" visibility="private" isReadOnly="true">
+          <ownedComment xmi:type="uml:Comment" xmi:id="88752A28-4B5B-4952-B3C2-4B2714BBD957_comment" annotatedElement="88752A28-4B5B-4952-B3C2-4B2714BBD957">
+            <body>Trace transmitted to the transmitter in the trace transfer method to identify the right transmitter in the channel</body>
+          </ownedComment>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:StringExpression" xmi:id="88752A28-4B5B-4952-B3C2-4B2714BBD957_default" symbol="not initialized"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="075D21BF-C986-4278-9664-280D3A9DD2B4" name="traceReceived" visibility="private" isReadOnly="true">
+          <ownedComment xmi:type="uml:Comment" xmi:id="075D21BF-C986-4278-9664-280D3A9DD2B4_comment" annotatedElement="075D21BF-C986-4278-9664-280D3A9DD2B4">
+            <body>Trace received from the transmitter in the trace transfer method</body>
+          </ownedComment>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:StringExpression" xmi:id="075D21BF-C986-4278-9664-280D3A9DD2B4_default" symbol="not initialized"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="3B2A9E53-C65B-4EA8-8286-AF0ED633DC2E" name="traceExpected" visibility="private" isReadOnly="true">
+          <ownedComment xmi:type="uml:Comment" xmi:id="3B2A9E53-C65B-4EA8-8286-AF0ED633DC2E_comment" annotatedElement="3B2A9E53-C65B-4EA8-8286-AF0ED633DC2E">
+            <body>Trace expected from the transmitter in the trace transfer method </body>
+          </ownedComment>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:StringExpression" xmi:id="3B2A9E53-C65B-4EA8-8286-AF0ED633DC2E_default" symbol="not initialized"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="4B8C73E8-0D0F-4FB6-B588-E38CBF9BCC0B" name="traceMismatchDetected" visibility="private" isReadOnly="true">
+          <ownedComment xmi:type="uml:Comment" xmi:id="4B8C73E8-0D0F-4FB6-B588-E38CBF9BCC0B_comment" annotatedElement="4B8C73E8-0D0F-4FB6-B588-E38CBF9BCC0B">
+            <body>Wrong trace received from the transmitter in the trace transfer method </body>
+          </ownedComment>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:StringExpression" xmi:id="4B8C73E8-0D0F-4FB6-B588-E38CBF9BCC0B_default" symbol="not initialized"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="439A93E5-620E-490C-9D47-CEF95944C22A" name="traceMismatchDetectionMode" visibility="private" isReadOnly="true">
+          <ownedComment xmi:type="uml:Comment" xmi:id="439A93E5-620E-490C-9D47-CEF95944C22A_comment" annotatedElement="439A93E5-620E-490C-9D47-CEF95944C22A">
+            <body>Mode to identify a mismatch in the trace detection</body>
+          </ownedComment>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:StringExpression" xmi:id="439A93E5-620E-490C-9D47-CEF95944C22A_default" symbol="not initialized"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="BB0EC746-6386-4622-89A8-19542E81019D" name="traceMismatchDetectionAction" visibility="private" isReadOnly="true">
+          <ownedComment xmi:type="uml:Comment" xmi:id="BB0EC746-6386-4622-89A8-19542E81019D_comment" annotatedElement="BB0EC746-6386-4622-89A8-19542E81019D">
+            <body>Action to follow after a trace mismatch is detected</body>
+          </ownedComment>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:StringExpression" xmi:id="BB0EC746-6386-4622-89A8-19542E81019D_default" symbol="not initialized"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="F19BE98B-2AF5-46BB-9B11-67551997E645" name="traceGenerationApproach" visibility="private" isReadOnly="true">
+          <ownedComment xmi:type="uml:Comment" xmi:id="F19BE98B-2AF5-46BB-9B11-67551997E645_comment" annotatedElement="F19BE98B-2AF5-46BB-9B11-67551997E645">
+            <body>How to generate a trace</body>
+          </ownedComment>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:StringExpression" xmi:id="F19BE98B-2AF5-46BB-9B11-67551997E645_default" symbol="not initialized"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="3791C1E8-BE67-4E46-838E-F4D30C35170D" name="SignalSourceLabel">
+        <ownedComment xmi:type="uml:Comment" xmi:id="3791C1E8-BE67-4E46-838E-F4D30C35170D_comment" annotatedElement="3791C1E8-BE67-4E46-838E-F4D30C35170D">
+          <body>The object class 'SignalSourceLabel' …</body>
+        </ownedComment>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="BCDD8392-303E-4CA6-A1D4-0DE1E50367F0" name="signalLabelTransferMethod" visibility="private" isReadOnly="true">
+          <ownedComment xmi:type="uml:Comment" xmi:id="BCDD8392-303E-4CA6-A1D4-0DE1E50367F0_comment" annotatedElement="BCDD8392-303E-4CA6-A1D4-0DE1E50367F0">
+            <body>Method to transfer a signal label that contains soime characteristic of the transmitted signal</body>
+          </ownedComment>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:StringExpression" xmi:id="BCDD8392-303E-4CA6-A1D4-0DE1E50367F0_default" symbol="not initialized"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="579D0AAD-4F55-4EC3-8EED-BE349FC2F540" name="signalLabelTransmitted" visibility="private" isReadOnly="true">
+          <ownedComment xmi:type="uml:Comment" xmi:id="579D0AAD-4F55-4EC3-8EED-BE349FC2F540_comment" annotatedElement="579D0AAD-4F55-4EC3-8EED-BE349FC2F540">
+            <body>Signal label that contains soime characteristic of the transmitted signal</body>
+          </ownedComment>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:StringExpression" xmi:id="579D0AAD-4F55-4EC3-8EED-BE349FC2F540_default" symbol="not initialized"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="FDBCFC91-3438-4349-AF57-DB6202AAB316" name="signalLabelReceived" visibility="private" isReadOnly="true">
+          <ownedComment xmi:type="uml:Comment" xmi:id="FDBCFC91-3438-4349-AF57-DB6202AAB316_comment" annotatedElement="FDBCFC91-3438-4349-AF57-DB6202AAB316">
+            <body>Signal label that contains soime characteristic of the received signal</body>
+          </ownedComment>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:StringExpression" xmi:id="FDBCFC91-3438-4349-AF57-DB6202AAB316_default" symbol="not initialized"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="E0BCB6B3-51C4-450C-87B7-26111946E99C" name="signalLabelExpected" visibility="private" isReadOnly="true">
+          <ownedComment xmi:type="uml:Comment" xmi:id="E0BCB6B3-51C4-450C-87B7-26111946E99C_comment" annotatedElement="E0BCB6B3-51C4-450C-87B7-26111946E99C">
+            <body>Signal label expected</body>
+          </ownedComment>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:StringExpression" xmi:id="E0BCB6B3-51C4-450C-87B7-26111946E99C_default" symbol="not initialized"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="A44C9380-80E6-4B04-997A-9E0A215C06FF" name="signalLabelMismatchDectected" visibility="private" isReadOnly="true">
+          <ownedComment xmi:type="uml:Comment" xmi:id="A44C9380-80E6-4B04-997A-9E0A215C06FF_comment" annotatedElement="A44C9380-80E6-4B04-997A-9E0A215C06FF">
+            <body>Signal label mismatch is detected</body>
+          </ownedComment>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:StringExpression" xmi:id="A44C9380-80E6-4B04-997A-9E0A215C06FF_default" symbol="not initialized"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="E3473CD6-DB98-4F36-99D3-C2B104A7CE38" name="signalLabelMismatchDetectionMode" visibility="private" isReadOnly="true">
+          <ownedComment xmi:type="uml:Comment" xmi:id="E3473CD6-DB98-4F36-99D3-C2B104A7CE38_comment" annotatedElement="E3473CD6-DB98-4F36-99D3-C2B104A7CE38">
+            <body>Method to identify a signal label mismatch </body>
+          </ownedComment>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:StringExpression" xmi:id="E3473CD6-DB98-4F36-99D3-C2B104A7CE38_default" symbol="not initialized"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="AD821561-7446-4469-A34F-24ADBA293352" name="signalLabelMismatchDetectionAction" visibility="private" isReadOnly="true">
+          <ownedComment xmi:type="uml:Comment" xmi:id="AD821561-7446-4469-A34F-24ADBA293352_comment" annotatedElement="AD821561-7446-4469-A34F-24ADBA293352">
+            <body>Action to take after identifying a signal label mismatch</body>
+          </ownedComment>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:StringExpression" xmi:id="AD821561-7446-4469-A34F-24ADBA293352_default" symbol="not initialized"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="36E45988-CFF4-4002-A4EA-91FC2AE42819" name="signalLabelGenerationApproach" visibility="private" isReadOnly="true">
+          <ownedComment xmi:type="uml:Comment" xmi:id="36E45988-CFF4-4002-A4EA-91FC2AE42819_comment" annotatedElement="36E45988-CFF4-4002-A4EA-91FC2AE42819">
+            <body>How to generate a signal label</body>
+          </ownedComment>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:StringExpression" xmi:id="36E45988-CFF4-4002-A4EA-91FC2AE42819_default" symbol="not initialized"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="73CDF40F-5C6B-4745-9108-3E0E56E31B7D" name="SignalCharacteristics">
+        <ownedComment xmi:type="uml:Comment" xmi:id="73CDF40F-5C6B-4745-9108-3E0E56E31B7D_comment" annotatedElement="73CDF40F-5C6B-4745-9108-3E0E56E31B7D">
+          <body>The object class 'SignalCharacteristics' …</body>
+        </ownedComment>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="121A581F-C138-4877-9495-98C794D98072" name="OpenConnectionIndication&#xA;" visibility="private" isReadOnly="true">
+          <ownedComment xmi:type="uml:Comment" xmi:id="121A581F-C138-4877-9495-98C794D98072_comment" annotatedElement="121A581F-C138-4877-9495-98C794D98072">
+            <body></body>
+          </ownedComment>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:StringExpression" xmi:id="121A581F-C138-4877-9495-98C794D98072_default" symbol=""/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="73EA081B-DABB-4220-9543-3E053B42A2D6" name="bitRateLineCoding" visibility="private" isReadOnly="true">
+          <ownedComment xmi:type="uml:Comment" xmi:id="73EA081B-DABB-4220-9543-3E053B42A2D6_comment" annotatedElement="73EA081B-DABB-4220-9543-3E053B42A2D6">
+            <body>Bit rate used according to the noisy of the communication channel</body>
+          </ownedComment>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:StringExpression" xmi:id="73EA081B-DABB-4220-9543-3E053B42A2D6_default" symbol=""/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="8B98F399-D3FC-42EB-ADDC-5BB3E2B8EEAE" name="FarendIndications">
+        <ownedComment xmi:type="uml:Comment" xmi:id="8B98F399-D3FC-42EB-ADDC-5BB3E2B8EEAE_comment" annotatedElement="8B98F399-D3FC-42EB-ADDC-5BB3E2B8EEAE">
+          <body>The object class 'FarendIndications' …</body>
+        </ownedComment>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="061D45B7-3472-40C5-9268-214E6A2C5986" name="farEndProblemTransmitToHere" visibility="private" isReadOnly="true">
+          <ownedComment xmi:type="uml:Comment" xmi:id="061D45B7-3472-40C5-9268-214E6A2C5986_comment" annotatedElement="061D45B7-3472-40C5-9268-214E6A2C5986">
+            <body>Problem to transmit at the far end from the near end</body>
+          </ownedComment>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:StringExpression" xmi:id="061D45B7-3472-40C5-9268-214E6A2C5986_default" symbol="not initialized"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="9FE302DC-B192-4804-BC6B-ED056FB73A92" name="farEndProblemReceiveFromHere" visibility="private" isReadOnly="true">
+          <ownedComment xmi:type="uml:Comment" xmi:id="9FE302DC-B192-4804-BC6B-ED056FB73A92_comment" annotatedElement="9FE302DC-B192-4804-BC6B-ED056FB73A92">
+            <body>Problem to receive at the far end from the near end</body>
+          </ownedComment>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:StringExpression" xmi:id="9FE302DC-B192-4804-BC6B-ED056FB73A92_default" symbol="not initialized"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="B74F7A0F-2DD9-4D17-869C-CBDB2881F428" name="farEndProblemTransmitAwayFromHere" visibility="private" isReadOnly="true">
+          <ownedComment xmi:type="uml:Comment" xmi:id="B74F7A0F-2DD9-4D17-869C-CBDB2881F428_comment" annotatedElement="B74F7A0F-2DD9-4D17-869C-CBDB2881F428">
+            <body>Problem to transmit from the far end to away from the near end</body>
+          </ownedComment>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:StringExpression" xmi:id="B74F7A0F-2DD9-4D17-869C-CBDB2881F428_default" symbol="not initialized"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="B4D9524E-FE41-4C14-A498-9513640BAC67" name="farEndProblemReceiveTowardsHere" visibility="private" isReadOnly="true">
+          <ownedComment xmi:type="uml:Comment" xmi:id="B4D9524E-FE41-4C14-A498-9513640BAC67_comment" annotatedElement="B4D9524E-FE41-4C14-A498-9513640BAC67">
+            <body>Problem to receive at the near end from the far end</body>
+          </ownedComment>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:StringExpression" xmi:id="B4D9524E-FE41-4C14-A498-9513640BAC67_default" symbol=""/>
+        </ownedAttribute>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="d1e1_notifications" name="Notifications"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="d1e1_diagrams" name="Diagrams"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="d1e1_associations" name="Associations"/>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="d1e1pa1">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_mfas8I20Eeid5cthly3JOg" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mfas8Y20Eeid5cthly3JOg" key="Version" value="0.0.9"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mfas8o20Eeid5cthly3JOg" key="Comment" value="BITS encoding and bitsDefinition property added."/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mfas8420Eeid5cthly3JOg" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mfas9I20Eeid5cthly3JOg" key="Date" value="2018-04-13"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mfas9Y20Eeid5cthly3JOg" key="Author" value="IISOMI"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="d1e1pa1ea2" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="UmlProfiles/OpenInterfaceModelProfile/OpenInterfaceModel_Profile.profile.uml#_3NPRMD78EeiIisB6uOvKFA"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="UmlProfiles/OpenInterfaceModelProfile/OpenInterfaceModel_Profile.profile.uml#_UbM6ILbyEeaufdfMFhfy_A"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="d1e1pa2">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_mfbUAY20Eeid5cthly3JOg" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mfbUAo20Eeid5cthly3JOg" key="Version" value="0.2.14"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mfbUA420Eeid5cthly3JOg" key="Comment" value="New stereotype OpenModelStatement added. It contains the generic information of the model and extends the Metaclass &quot;Model&quot;."/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mfbUBI20Eeid5cthly3JOg" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mfbUBY20Eeid5cthly3JOg" key="Date" value="2018-04-13"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mfbUBo20Eeid5cthly3JOg" key="Author" value="IISOMI"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="d1e1pa2ea2" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="UmlProfiles/OpenModelProfile/OpenModel_Profile.profile.uml#_S32LgD8HEeiIisB6uOvKFA"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="UmlProfiles/OpenModelProfile/OpenModel_Profile.profile.uml#_m1xqsHBgEd6FKu9XX1078A"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="d1e1pa3">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="d1e1pa3ea1" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="d1e1pa3ea1d1" key="Version" value="0.0.4"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="d1e1pa3ea1d2" key="Comment" value="Metaclasses Property and Stereotype added via &lt;Element Import>."/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="d1e1pa3ea1d3" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="d1e1pa3ea1d4" key="Date" value="2017-08-08"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="d1e1pa3ea1d5" key="Author" value=""/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="d1e1pa3ea2" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="UmlProfiles/ProfileLifecycleProfile/ProfileLifecycle_Profile.profile.uml#_AL3HsHweEee8oZaf2rRQlg"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="UmlProfiles/ProfileLifecycleProfile/ProfileLifecycle_Profile.profile.uml#_CBpGoEdZEearpawF38eisA"/>
+    </profileApplication>
+  </uml:Model>
+  <OpenModel_Profile:OpenModelClass xmi:id="d1e145_omc" base_Class="A0E5724C-F79D-4C3E-9EAA-F26A26F972C6"/>
+  <OpenInterfaceModel_Profile:OpenInterfaceModelClass xmi:id="d1e145_oic" base_Class="A0E5724C-F79D-4C3E-9EAA-F26A26F972C6"/>
+  <OpenModel_Profile:OpenModelClass xmi:id="d1e146_omc" base_Class="8EF409DF-1FED-4A48-B536-C5DC7A7880F7"/>
+  <OpenInterfaceModel_Profile:OpenInterfaceModelClass xmi:id="d1e146_oic" base_Class="8EF409DF-1FED-4A48-B536-C5DC7A7880F7"/>
+  <OpenModel_Profile:OpenModelClass xmi:id="d1e147_omc" base_Class="74D4D153-4E3D-4BB4-A7B5-1460CBD1DFA6"/>
+  <OpenInterfaceModel_Profile:OpenInterfaceModelClass xmi:id="d1e147_oic" base_Class="74D4D153-4E3D-4BB4-A7B5-1460CBD1DFA6"/>
+  <OpenModel_Profile:OpenModelClass xmi:id="d1e148_omc" base_Class="09899F35-84A0-42CD-A268-9C14267073A0"/>
+  <OpenInterfaceModel_Profile:OpenInterfaceModelClass xmi:id="d1e148_oic" base_Class="09899F35-84A0-42CD-A268-9C14267073A0"/>
+  <OpenModel_Profile:OpenModelClass xmi:id="d1e149_omc" base_Class="63659834-EC42-4B67-BD01-B54C3E4EDC30"/>
+  <OpenInterfaceModel_Profile:OpenInterfaceModelClass xmi:id="d1e149_oic" base_Class="63659834-EC42-4B67-BD01-B54C3E4EDC30"/>
+  <OpenModel_Profile:OpenModelClass xmi:id="d1e150_omc" base_Class="D8E04FB4-1C21-49B7-83A8-0C9C54643CB3"/>
+  <OpenInterfaceModel_Profile:OpenInterfaceModelClass xmi:id="d1e150_oic" base_Class="D8E04FB4-1C21-49B7-83A8-0C9C54643CB3"/>
+  <OpenModel_Profile:OpenModelClass xmi:id="d1e151_omc" base_Class="A0B62FC5-4B8D-4E8E-9621-B14237B0D77A"/>
+  <OpenInterfaceModel_Profile:OpenInterfaceModelClass xmi:id="d1e151_oic" base_Class="A0B62FC5-4B8D-4E8E-9621-B14237B0D77A"/>
+  <OpenModel_Profile:OpenModelClass xmi:id="d1e152_omc" base_Class="64C5A6A7-BAAE-4A8E-ADB6-C98E8D2FCF18"/>
+  <OpenInterfaceModel_Profile:OpenInterfaceModelClass xmi:id="d1e152_oic" base_Class="64C5A6A7-BAAE-4A8E-ADB6-C98E8D2FCF18"/>
+  <OpenModel_Profile:OpenModelClass xmi:id="d1e153_omc" base_Class="9D60033A-FC4F-4316-BF4C-E505F4B40450"/>
+  <OpenInterfaceModel_Profile:OpenInterfaceModelClass xmi:id="d1e153_oic" base_Class="9D60033A-FC4F-4316-BF4C-E505F4B40450"/>
+  <OpenModel_Profile:OpenModelClass xmi:id="d1e154_omc" base_Class="C46D0061-0EE1-4A4F-B00F-45C464F0E654"/>
+  <OpenInterfaceModel_Profile:OpenInterfaceModelClass xmi:id="d1e154_oic" base_Class="C46D0061-0EE1-4A4F-B00F-45C464F0E654"/>
+  <OpenModel_Profile:OpenModelClass xmi:id="d1e155_omc" base_Class="86E2D740-4BB4-4126-B02D-1ABB5B18361F"/>
+  <OpenInterfaceModel_Profile:OpenInterfaceModelClass xmi:id="d1e155_oic" base_Class="86E2D740-4BB4-4126-B02D-1ABB5B18361F"/>
+  <OpenModel_Profile:OpenModelClass xmi:id="d1e157_omc" base_Class="8EBF2406-6F73-4DB5-A54E-51B144B665F0"/>
+  <OpenInterfaceModel_Profile:OpenInterfaceModelClass xmi:id="d1e157_oic" base_Class="8EBF2406-6F73-4DB5-A54E-51B144B665F0"/>
+  <OpenModel_Profile:OpenModelClass xmi:id="d1e158_omc" base_Class="EE1F36F4-D749-4B93-9B07-7A9901DD4C6F"/>
+  <OpenInterfaceModel_Profile:OpenInterfaceModelClass xmi:id="d1e158_oic" base_Class="EE1F36F4-D749-4B93-9B07-7A9901DD4C6F"/>
+  <OpenModel_Profile:OpenModelClass xmi:id="d1e159_omc" base_Class="2D3D3BBB-50ED-4354-8AC1-D56735296E1B"/>
+  <OpenInterfaceModel_Profile:OpenInterfaceModelClass xmi:id="d1e159_oic" base_Class="2D3D3BBB-50ED-4354-8AC1-D56735296E1B"/>
+  <OpenModel_Profile:OpenModelClass xmi:id="d1e160_omc" base_Class="71AC1E15-E7C4-4773-A14D-F530557FB858"/>
+  <OpenInterfaceModel_Profile:OpenInterfaceModelClass xmi:id="d1e160_oic" base_Class="71AC1E15-E7C4-4773-A14D-F530557FB858"/>
+  <OpenModel_Profile:OpenModelClass xmi:id="d1e161_omc" base_Class="41DA8019-FE9C-41D2-8795-2FE1DD104D03"/>
+  <OpenInterfaceModel_Profile:OpenInterfaceModelClass xmi:id="d1e161_oic" base_Class="41DA8019-FE9C-41D2-8795-2FE1DD104D03"/>
+  <OpenModel_Profile:OpenModelClass xmi:id="d1e162_omc" base_Class="3791C1E8-BE67-4E46-838E-F4D30C35170D"/>
+  <OpenInterfaceModel_Profile:OpenInterfaceModelClass xmi:id="d1e162_oic" base_Class="3791C1E8-BE67-4E46-838E-F4D30C35170D"/>
+  <OpenModel_Profile:OpenModelClass xmi:id="d1e163_omc" base_Class="73CDF40F-5C6B-4745-9108-3E0E56E31B7D"/>
+  <OpenInterfaceModel_Profile:OpenInterfaceModelClass xmi:id="d1e163_oic" base_Class="73CDF40F-5C6B-4745-9108-3E0E56E31B7D"/>
+  <OpenModel_Profile:OpenModelClass xmi:id="d1e164_omc" base_Class="8B98F399-D3FC-42EB-ADDC-5BB3E2B8EEAE"/>
+  <OpenInterfaceModel_Profile:OpenInterfaceModelClass xmi:id="d1e164_oic" base_Class="8B98F399-D3FC-42EB-ADDC-5BB3E2B8EEAE"/>
 </xmi:XMI>
