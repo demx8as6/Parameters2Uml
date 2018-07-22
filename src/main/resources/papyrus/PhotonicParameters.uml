@@ -7,12 +7,12 @@
     <packagedElement xmi:type="uml:Package" xmi:id="d1e1oc" name="ObjectClasses"/>
     <packagedElement xmi:type="uml:Package" xmi:id="d1e1_PhotonicParameters" name="Diagrams"/>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="d1e1pa1">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_2sSy8I2uEeid5cthly3JOg" source="PapyrusVersion">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_2sSy8Y2uEeid5cthly3JOg" key="Version" value="0.0.9"/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_2sSy8o2uEeid5cthly3JOg" key="Comment" value="BITS encoding and bitsDefinition property added."/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_2sSy842uEeid5cthly3JOg" key="Copyright" value=""/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_2sSy9I2uEeid5cthly3JOg" key="Date" value="2018-04-13"/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_2sSy9Y2uEeid5cthly3JOg" key="Author" value="IISOMI"/>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_YEi-0I20Eeid5cthly3JOg" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_YEi-0Y20Eeid5cthly3JOg" key="Version" value="0.0.9"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_YEi-0o20Eeid5cthly3JOg" key="Comment" value="BITS encoding and bitsDefinition property added."/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_YEi-0420Eeid5cthly3JOg" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_YEi-1I20Eeid5cthly3JOg" key="Date" value="2018-04-13"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_YEi-1Y20Eeid5cthly3JOg" key="Author" value="IISOMI"/>
       </eAnnotations>
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="d1e1pa1ea2" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="UmlProfiles/OpenInterfaceModelProfile/OpenInterfaceModel_Profile.profile.uml#_3NPRMD78EeiIisB6uOvKFA"/>
@@ -20,12 +20,12 @@
       <appliedProfile xmi:type="uml:Profile" href="UmlProfiles/OpenInterfaceModelProfile/OpenInterfaceModel_Profile.profile.uml#_UbM6ILbyEeaufdfMFhfy_A"/>
     </profileApplication>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="d1e1pa2">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_2sUBEI2uEeid5cthly3JOg" source="PapyrusVersion">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_2sUBEY2uEeid5cthly3JOg" key="Version" value="0.2.14"/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_2sUBEo2uEeid5cthly3JOg" key="Comment" value="New stereotype OpenModelStatement added. It contains the generic information of the model and extends the Metaclass &quot;Model&quot;."/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_2sUBE42uEeid5cthly3JOg" key="Copyright" value=""/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_2sUBFI2uEeid5cthly3JOg" key="Date" value="2018-04-13"/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_2sUBFY2uEeid5cthly3JOg" key="Author" value="IISOMI"/>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_YEkM8I20Eeid5cthly3JOg" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_YEkM8Y20Eeid5cthly3JOg" key="Version" value="0.2.14"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_YEkM8o20Eeid5cthly3JOg" key="Comment" value="New stereotype OpenModelStatement added. It contains the generic information of the model and extends the Metaclass &quot;Model&quot;."/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_YEkM8420Eeid5cthly3JOg" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_YEkM9I20Eeid5cthly3JOg" key="Date" value="2018-04-13"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_YEkM9Y20Eeid5cthly3JOg" key="Author" value="IISOMI"/>
       </eAnnotations>
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="d1e1pa2ea2" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="UmlProfiles/OpenModelProfile/OpenModel_Profile.profile.uml#_S32LgD8HEeiIisB6uOvKFA"/>
@@ -46,5 +46,5 @@
       <appliedProfile xmi:type="uml:Profile" href="UmlProfiles/ProfileLifecycleProfile/ProfileLifecycle_Profile.profile.uml#_CBpGoEdZEearpawF38eisA"/>
     </profileApplication>
   </uml:Model>
-  <OpenModel_Profile:OpenModelStatement xmi:id="_2sTaAI2uEeid5cthly3JOg" base_Model="d1e1"/>
+  <OpenModel_Profile:OpenModelStatement xmi:id="_YEjl4I20Eeid5cthly3JOg" base_Model="d1e1"/>
 </xmi:XMI>
